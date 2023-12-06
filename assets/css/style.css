@@ -30,6 +30,10 @@ body{
     flex-direction: column;
 }
 
+.material-symbols-outlined{
+    vertical-align: bottom;
+}
+
 /*Header*/
 header{
     background-color: lightblue;
