@@ -67,8 +67,8 @@ a {
 
 /*Header*/
 header{
-    background-color: lightblue;
-
+    background-color: var(--background-color);
+    padding: 5px 0;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -78,14 +78,24 @@ header{
 
 }
 
+/*Navbar styles*/
 nav{
     /*Doesn't display by default*/
     display: none;
 
     position: absolute;
     left: 0;
-    top: 100%;
     width: 100%;
+    top: 0;
+    transition: all 0.3s;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+#logo a img{
+    width: 3em;
 }
 
 #menu{
@@ -128,6 +138,8 @@ nav{
 #hamburger-menu-toggle:checked ~ nav{
     /*Menu displays when the checkbox is pressed*/
     display: block;
+    top: 100%;
+    transition: all 0.3s;
 }
 
 /*Main content*/
