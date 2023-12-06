@@ -22,7 +22,7 @@
 }
 
 /*General Styles*/
-body{
+body {
     /*Makes sure the page takes up at least the whole viewport*/
     min-height: 100vh;
     /*Required to make the main content take up any unused space*/
@@ -57,16 +57,16 @@ a {
     color: var(--heading-color);
 }
 
-.icon-align-bottom{
+.icon-align-bottom {
     vertical-align: bottom;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 /*Header*/
-header{
+header {
     background-color: var(--background-color);
     padding: 5px 0;
     position: fixed;
@@ -74,12 +74,10 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
 }
 
 /*Navbar styles*/
-nav{
+nav {
     /*Doesn't display by default*/
     display: none;
 
@@ -88,17 +86,26 @@ nav{
     width: 100%;
     top: 0;
     transition: all 0.3s;
+
 }
 
-#logo{
+#logo {
     margin-left: 10px;
+    height: 3em;
+    vertical-align: bottom;
 }
 
-#logo a img{
+#logo a {
+    display: inline-block;
+    height: 0;
+}
+
+#logo a img {
     width: 3em;
+
 }
 
-#menu{
+#menu {
     width: 100%;
     text-align: right;
     background-color: var(--background-color);
@@ -107,23 +114,23 @@ nav{
     box-shadow: 0px 1px 5px 5px var(--shadow-color);
 }
 
-#menu li{
+#menu li {
     border-top: var(--border-color) solid 2px;
     padding: 10px;
 }
 
-#menu li h2{
+#menu li h2 {
     margin: 0;
     width: 100%;
 }
 
-#menu li a{
+#menu li a {
     display: flex;
     align-items: flex-end;
     margin-right: 10px;
 }
 
-#hamburger-menu-container{
+#hamburger-menu-container {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -131,11 +138,11 @@ nav{
 }
 
 
-#hamburger-menu-icon span{
+#hamburger-menu-icon span {
     font-size: 3em;
 }
 
-#hamburger-menu-toggle:checked ~ nav{
+#hamburger-menu-toggle:checked~nav {
     /*Menu displays when the checkbox is pressed*/
     display: block;
     top: 100%;
@@ -143,13 +150,13 @@ nav{
 }
 
 /*Main content*/
-main{
+main {
     background-color: lightcoral;
     /*Makes the main element take up any unused space*/
     flex: 1 0 auto;
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: lightgreen;
 }
