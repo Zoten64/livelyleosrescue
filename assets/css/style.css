@@ -75,11 +75,22 @@ header{
 }
 
 nav{
+    /*Doesn't display by default*/
     display: none;
+
+    position: absolute;
+    left: 0;
+    top: 100%;
     width: 100%;
 }
 
+#menu{
+    width: 100%;
+    text-align: right;
+}
+
 #hamburger-menu-toggle:checked ~ nav{
+    /*Menu displays when the checkbox is pressed*/
     display: block;
 }
 
