@@ -16,4 +16,33 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+
+    /*Sets font for entire page. Easily overriden*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/*General Styles*/
+body{
+    /*Makes sure the page takes up at least the whole viewport*/
+    min-height: 100vh;
+    /*Required to make the main content take up any unused space*/
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+header{
+    background-color: lightblue;
+}
+
+/*Main content*/
+main{
+    background-color: lightcoral;
+    /*Makes the main element take up any unused space*/
+    flex: 1 0 auto;
+}
+
+/*Footer*/
+footer{
+    background-color: lightgreen;
 }
