@@ -30,6 +30,33 @@ body{
     flex-direction: column;
 }
 
+h1 {
+    color: var(--heading-color);
+    font-size: 30px;
+}
+
+h2 {
+    color: var(--heading-color);
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--heading-color);
+}
+
 .icon-align-bottom{
     vertical-align: bottom;
 }
@@ -37,6 +64,14 @@ body{
 /*Header*/
 header{
     background-color: lightblue;
+
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 /*Main content*/
