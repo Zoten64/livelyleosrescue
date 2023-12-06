@@ -74,6 +74,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    border-bottom: var(--border-color) solid 2px;
+    box-shadow: 0px 1px 5px 5px var(--shadow-color);
 }
 
 /*Navbar styles*/
