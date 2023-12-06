@@ -74,6 +74,15 @@ header{
 
 }
 
+nav{
+    display: none;
+    width: 100%;
+}
+
+#hamburger-menu-toggle:checked ~ nav{
+    display: block;
+}
+
 /*Main content*/
 main{
     background-color: lightcoral;
