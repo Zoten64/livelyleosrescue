@@ -73,7 +73,7 @@ header {
     z-index: 99;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+
     border-bottom: var(--border-color) solid 2px;
     box-shadow: 0px 1px 5px 5px var(--shadow-color);
 }
@@ -82,18 +82,18 @@ header {
 nav {
     /*Doesn't display by default*/
     display: none;
-
     position: absolute;
     left: 0;
     width: 100%;
     top: 0;
     transition: all 0.3s;
-
+    align-items: flex-end;
 }
 
 #logo-text{
     font-size: 1.2em;
     margin-left: 5px;
+    width: 70px;
 }
 
 #logo {
@@ -253,18 +253,20 @@ footer hr {
     align-items: flex-end;
 }
 
-/*For screens larger than 768px*/
-@media screen and (min-width: 768px) {
+/*For screens larger than 992px*/
+@media screen and (min-width: 992px) {
     nav{
-        display: block;
+        display: flex;
         position: relative;
-        width: fit-content;
+        width: 100%;
+        justify-content: right;
     }
 
     #menu{
         display: flex;
         border: none;
         box-shadow: none;
+        width: fit-content;
     }
 
     #menu li{
