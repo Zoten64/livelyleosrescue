@@ -164,6 +164,13 @@ footer {
     border-top: 2px solid var(--border-color);
 }
 
+footer hr {
+    width: 90%;
+    align-self: center;
+    margin: auto;
+    border-bottom: 2px solid var(--paragraph-color);
+}
+
 /*Social media links*/
 #social-media {
     max-width: 400px;
@@ -173,6 +180,7 @@ footer {
     justify-content: space-between;
     align-items: baseline;
     padding: 15px 40px;
+    padding-bottom: 5px;
 }
 
 #social-media i {
@@ -183,4 +191,24 @@ footer {
     text-align: center;
     margin: auto 5px;
     transition: transform 0.2s;
+}
+
+/*Contact and location*/
+
+#info-footer,
+#location-footer {
+    margin: 15px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#info-footer h2,
+#location-footer h2 {
+    margin-bottom: 5px;
+}
+
+#info-footer a,
+#location-footer a {
+    display: flex;
+    align-items: flex-end;
 }
