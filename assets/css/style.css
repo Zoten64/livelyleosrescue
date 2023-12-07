@@ -157,9 +157,46 @@ nav {
 
 /*Main content*/
 main {
-    background-color: lightcoral;
+    background-color: var(--background-color);
     /*Makes the main element take up any unused space*/
     flex: 1 0 auto;
+    /*Pushes the content under the header*/
+    padding-top: 60px;
+}
+
+/*Main heading = the title of the page*/
+/*Container used to hold the contents and center them as flex does not have a justify self did not work*/
+#main-heading-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Made to fit the content so the line underneath can adjust to be half the width of the text*/
+#main-heading {
+    width: fit-content;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--heading-color);
+    text-underline-offset: 3px;
+}
+
+/*Line underneath*/
+#main-heading hr {
+    margin: 5px auto;
+    width: 50%;
+    border: var(--heading-color) solid;
+    border-bottom: 3px;
+}
+
+#main-content {
+    display: grid;
+    justify-self: center;
+    margin: auto;
+
+    width: 85%;
+    max-width: 1000px;
 }
 
 /*Footer*/
