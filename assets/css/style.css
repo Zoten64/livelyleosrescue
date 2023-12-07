@@ -252,3 +252,30 @@ footer hr {
     display: flex;
     align-items: flex-end;
 }
+
+/*For screens larger than 768px*/
+@media screen and (min-width: 768px) {
+    nav{
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu{
+        display: flex;
+        border: none;
+        box-shadow: none;
+    }
+
+    #menu li{
+        border: none;
+    }
+
+    #menu li h2{
+        margin-right: 3px;
+    }
+
+    #hamburger-menu-container{
+        display: none;
+    }
+}
