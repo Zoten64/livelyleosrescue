@@ -91,10 +91,13 @@ nav {
 
 }
 
+#logo-text{
+    font-size: 1.2em;
+}
+
 #logo {
     margin-left: 10px;
     height: 3em;
-    vertical-align: bottom;
 }
 
 #logo a {
@@ -180,7 +183,6 @@ footer hr {
     justify-content: space-between;
     align-items: baseline;
     padding: 15px 40px;
-    padding-bottom: 5px;
 }
 
 #social-media i {
