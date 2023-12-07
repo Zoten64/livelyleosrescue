@@ -162,3 +162,24 @@ main {
 footer {
     background-color: lightgreen;
 }
+
+/*Social media links*/
+#social-media {
+    max-width: 400px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px 40px;
+}
+
+#social-media i {
+    font-size: 2em;
+}
+
+.social-media-item {
+    text-align: center;
+    margin: auto 5px;
+    transition: transform 0.2s;
+}
