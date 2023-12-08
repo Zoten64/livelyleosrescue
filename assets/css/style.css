@@ -38,7 +38,7 @@ h1 {
 h2 {
     color: var(--heading-color);
     font-size: 16px;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 p {
@@ -177,7 +177,7 @@ main {
 }
 
 #hero {
-    height: 180px;
+    height: 120px;
     /*Hero image from here: https://openclipart.org/detail/306640/desert-at-dusk
     Colors modified*/
     background-image: url("../images/hero.webp");
@@ -188,6 +188,14 @@ main {
     background-color: var(--accent-color);
     margin: 0;
     border-bottom: 2px solid var(--border-color);
+}
+
+#text-container{
+    width: 80%;
+    max-width: 700px;
+    align-self: center;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 /*Main heading = the title of the page*/
@@ -330,6 +338,11 @@ footer hr {
         transition: all 0.3s;
     }
 
+
+    /*Main*/
+    #hero{
+        height: 150px;
+    }
 
     #menu {
         display: flex;
