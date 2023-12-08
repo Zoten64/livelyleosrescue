@@ -276,6 +276,40 @@ footer hr {
         justify-content: right;
     }
 
+    .nav-item {
+
+        /*Transition settings*/
+        text-underline-offset: 0;
+        transition: all 0.2s;
+    }
+    
+    /*When you hover over the element these properties will change. Applies to #active to override*/
+    .nav-item:hover,
+    #active:hover {
+
+        transform: scale(1.2) translateY(-8px);
+        /*Transition settings*/
+        transition: all 0.2s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .nav-item h2{
+        /*Some fancy hover effect transition*/
+        text-decoration: underline;
+        text-decoration-color: #0d0d0d00;
+        text-decoration-thickness: 3px;
+        transition: all 0.2s;
+    }
+
+    .nav-item:hover h2{
+        /*Some fancy hover effect transition*/
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 7px;
+        text-decoration-color: var(--heading-color);
+        transition: all 0.3s;
+    }
+
     #menu {
         display: flex;
         border: none;
