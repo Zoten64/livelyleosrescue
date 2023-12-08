@@ -366,7 +366,20 @@ footer hr {
         margin-bottom: 25px;
     }
 
+    /*Makes the icons grow slightly whn hovered over*/
     .social-media-item:hover{
         transform: scale(1.2) translateY(-5px);
+    }
+}
+
+/*If user has darkmode selected on their device the site will appear in dark colors. This works by changing
+the color variables declared above. Accent stays the same*/
+@media (prefers-color-scheme: dark) {
+    * {
+        --background-color: #16161a;
+        --heading-color: #fffffe;
+        --paragraph-color: #94a1b2;
+        --border-color: #0c0c0ce8;
+        --shadow-color: #07070715;
     }
 }
