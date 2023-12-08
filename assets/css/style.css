@@ -65,6 +65,11 @@ a {
     display: none;
 }
 
+/*Elements with this class will be hidden on desktop*/
+.desktop-hidden {
+    display: inherit;
+}
+
 /*Header*/
 header {
     background-color: var(--background-color);
@@ -90,7 +95,7 @@ nav {
     align-items: flex-end;
 }
 
-#logo-text{
+#logo-text {
     font-size: 1.2em;
     margin-left: 5px;
     width: 70px;
@@ -253,31 +258,82 @@ footer hr {
     align-items: flex-end;
 }
 
+
 /*For screens larger than 992px*/
 @media screen and (min-width: 992px) {
-    nav{
+
+    /*General styles*/
+    /*Elements with this class will be hidden on desktop*/
+    .desktop-hidden {
+        display: none;
+    }
+
+    /*Navigation bar*/
+    nav {
         display: flex;
         position: relative;
         width: 100%;
         justify-content: right;
     }
 
-    #menu{
+    #menu {
         display: flex;
         border: none;
         box-shadow: none;
         width: fit-content;
     }
 
-    #menu li{
+    #menu li {
         border: none;
     }
 
-    #menu li h2{
+    #menu li h2 {
         margin-right: 3px;
     }
 
-    #hamburger-menu-container{
+    #hamburger-menu-container {
         display: none;
+    }
+
+    /*Footer styles*/
+    #info-location-container {
+        display: flex;
+    }
+
+    #info-footer{
+        margin: 0;
+        display: grid;
+        justify-content: right;
+        width: 50%;
+    }
+
+    #info-footer h2{
+        height: fit-content;
+        background-color: lightsalmon;
+    }
+
+    #info-footer a{
+        height: fit-content;
+        background-color: lightcoral;
+    }
+
+    #info-footer a p{
+        background-color: lightblue;
+        margin: 0;
+    }
+
+    #location-footer{
+        height: fit-content;
+        display: grid;
+        margin: 0;
+        width: 50%;
+    }
+
+    #location-footer h2{
+        background-color: lightpink;
+    }
+
+    #location-footer p{
+        background-color: lightblue;
     }
 }
