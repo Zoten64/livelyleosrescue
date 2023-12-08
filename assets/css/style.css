@@ -178,7 +178,7 @@ main {
 }
 
 #hero {
-    height: 120px;
+    height: 100px;
     /*Hero image from here: https://openclipart.org/detail/306640/desert-at-dusk
     Colors modified*/
     background-image: url("../images/hero.webp");
