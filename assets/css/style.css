@@ -366,5 +366,7 @@ footer hr {
         margin-bottom: 25px;
     }
 
-
+    .social-media-item:hover{
+        transform: scale(1.2) translateY(-5px);
+    }
 }
