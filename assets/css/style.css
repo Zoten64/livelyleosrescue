@@ -275,6 +275,7 @@ footer hr {
     margin: 15px;
     margin-left: 5%;
     margin-top: 10px;
+    margin-bottom: 32px;
 }
 
 #info-footer h2,
@@ -372,7 +373,6 @@ footer hr {
     }
 
     #info-footer{
-        margin: 0;
         justify-content: right;
         min-width: 150px;
         margin-right: 100px;
