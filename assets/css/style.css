@@ -95,6 +95,13 @@ nav {
     align-items: flex-end;
 }
 
+#active{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 1px;
+    text-decoration-color: var(--heading-color);
+}
+
 #logo-text {
     font-size: 1.2em;
     margin-left: 5px;
@@ -284,8 +291,7 @@ footer hr {
     }
     
     /*When you hover over the element these properties will change. Applies to #active to override*/
-    .nav-item:hover,
-    #active:hover {
+    .nav-item:hover{
 
         transform: scale(1.2) translateY(-8px);
         /*Transition settings*/
@@ -301,7 +307,7 @@ footer hr {
         transition: all 0.2s;
     }
 
-    .nav-item:hover h2{
+    .nav-item:hover h2, #active:hover{
         /*Some fancy hover effect transition*/
         text-decoration: underline;
         text-decoration-thickness: 3px;
@@ -309,6 +315,7 @@ footer hr {
         text-decoration-color: var(--heading-color);
         transition: all 0.3s;
     }
+
 
     #menu {
         display: flex;
