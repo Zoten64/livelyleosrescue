@@ -158,6 +158,7 @@ nav {
 
 #hamburger-menu-icon span {
     font-size: 3em;
+    color: var(--heading-color);
 }
 
 #hamburger-menu-toggle:checked~nav {
