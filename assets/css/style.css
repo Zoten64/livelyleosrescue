@@ -5,6 +5,7 @@
 * {
     /*Color variables. Used to easily switch colors if needed. See comment related to darkmode on the bottom*/
     --background-color: #eff0f3;
+    --background-color-2: #cfd0d4;
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
     --accent-color: #ff8e3c;
@@ -421,6 +422,7 @@ the color variables declared above. Accent stays the same*/
 @media (prefers-color-scheme: dark) {
     * {
         --background-color: #16161a;
+        --background-color-2: #1a1a1f;
         --heading-color: #fffffe;
         --paragraph-color: #94a1b2;
         --border-color: #0c0c0ce8;
