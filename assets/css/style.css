@@ -197,7 +197,10 @@ main {
 
 /*This is for home page images, might work with other pages later*/
 .grid-image {
-    display: block;
+    height: 100%;
+    display: grid;
+    align-items: stretch;
+    align-items: center;
     flex-direction: column;
     align-items: center;
     margin: auto;
@@ -205,6 +208,7 @@ main {
 
 .grid-image img {
     width: 100%;
+    height: 100%;
     padding: 5px;
     border: var(--heading-color) solid 2px;
     object-fit: cover;
