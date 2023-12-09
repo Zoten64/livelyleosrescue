@@ -30,12 +30,12 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2 {
     color: var(--heading-color);
     font-size: 30px;
 }
 
-h2 {
+h3 {
     color: var(--heading-color);
     font-size: 16px;
     margin-top: 2rem;
@@ -106,6 +106,8 @@ nav {
     font-size: 1.2em;
     margin-left: 5px;
     width: 70px;
+    margin-top: 0;
+    color: var(--heading-color);
 }
 
 #logo {
@@ -177,6 +179,41 @@ main {
     padding-top: 60px;
 }
 
+/*Main heading = the title of the page*/
+/*Container used to hold the contents and center them as flex does not have a justify self*/
+#main-heading-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Made to fit the content so the line underneath can adjust to be half the width of the text*/
+#main-heading {
+    width: fit-content;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--heading-color);
+    text-underline-offset: 3px;
+}
+
+/*Line underneath*/
+#main-heading hr {
+    margin: 5px auto;
+    width: 50%;
+    border: var(--heading-color) solid;
+    border-bottom: 3px;
+}
+
+#main-content {
+    display: grid;
+    justify-self: center;
+    margin: auto;
+
+    width: 85%;
+    max-width: 1000px;
+}
+
 
 #hero {
     height: 100px;
@@ -215,40 +252,6 @@ main {
     border: 5px solid var(--background-color);
 }
 
-/*Main heading = the title of the page*/
-/*Container used to hold the contents and center them as flex does not have a justify self did not work*/
-#main-heading-container {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-/*Made to fit the content so the line underneath can adjust to be half the width of the text*/
-#main-heading {
-    width: fit-content;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--heading-color);
-    text-underline-offset: 3px;
-}
-
-/*Line underneath*/
-#main-heading hr {
-    margin: 5px auto;
-    width: 50%;
-    border: var(--heading-color) solid;
-    border-bottom: 3px;
-}
-
-#main-content {
-    display: grid;
-    justify-self: center;
-    margin: auto;
-
-    width: 85%;
-    max-width: 1000px;
-}
 
 /*Footer*/
 footer {
