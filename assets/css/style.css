@@ -59,11 +59,6 @@ a {
     color: var(--heading-color);
 }
 
-hr{
-    border-bottom: var(--heading-color) 2px solid;
-    margin: 1rem;
-}
-
 .icon-align-bottom {
     vertical-align: bottom;
 }
@@ -75,6 +70,11 @@ hr{
 /*Elements with this class will be hidden on desktop*/
 .desktop-hidden {
     display: inherit;
+}
+
+/*Applies a slightly lighter color*/
+.background-color-2{
+    background-color: var(--background-color-2);
 }
 
 /*Header*/
@@ -250,12 +250,14 @@ main {
 }
 
 #text-container section{
-    margin: 2rem 1rem
+    padding: 2rem 1rem
 }
 
 #text-container section div h3{
     margin: 0;
 }
+
+
 
 
 /*Footer*/
