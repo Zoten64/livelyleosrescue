@@ -30,7 +30,8 @@ body {
     flex-direction: column;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: var(--heading-color);
     font-size: 30px;
 }
@@ -179,12 +180,20 @@ main {
     padding-top: 60px;
 }
 
+/*Makes the hero brighter to make it contrast more with the header, making the header more visible*/
+.hero-image-overlay {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(239, 240, 243, 0.5);
+}
+
 /*Main heading = the title of the page*/
 /*Container used to hold the contents and center them as flex does not have a justify self*/
 #main-heading-container {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /*Made to fit the content so the line underneath can adjust to be half the width of the text*/
@@ -209,9 +218,6 @@ main {
     display: grid;
     justify-self: center;
     margin: auto;
-
-    width: 85%;
-    max-width: 1000px;
 }
 
 
@@ -346,12 +352,6 @@ footer hr {
         transition: all 0.3s;
     }
 
-
-    /*Main*/
-    #hero {
-        height: 150px;
-    }
-
     #menu {
         display: flex;
         border: none;
@@ -366,6 +366,16 @@ footer hr {
     #menu li h3 {
         margin-right: 3px;
     }
+
+    /*Main*/
+    #hero {
+        height: 150px;
+    }
+
+    #main-heading h2 {
+        font-size: 4em;
+    }
+
 
     #hamburger-menu-container {
         display: none;
@@ -415,5 +425,10 @@ the color variables declared above. Accent stays the same*/
         --paragraph-color: #94a1b2;
         --border-color: #0c0c0ce8;
         --shadow-color: #07070715;
+    }
+
+    /*Makes the hero darker to make it contrast more with the header, making the header more visible*/
+    .hero-image-overlay {
+        background-color: rgba(22, 22, 26, 0.5);
     }
 }
