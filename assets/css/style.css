@@ -199,11 +199,7 @@ main {
 .grid-image {
     height: 100%;
     display: grid;
-    align-items: stretch;
     align-items: center;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
 }
 
 .grid-image img {
@@ -349,7 +345,7 @@ footer hr {
     .grid-2col-desktop {
         display: grid;
         height: fit-content;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
     }
 
     .grid-2-span {
