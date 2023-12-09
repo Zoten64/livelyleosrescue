@@ -59,6 +59,11 @@ a {
     color: var(--heading-color);
 }
 
+hr{
+    border-bottom: var(--heading-color) 2px solid;
+    margin: 1rem;
+}
+
 .icon-align-bottom {
     vertical-align: bottom;
 }
@@ -70,6 +75,10 @@ a {
 /*Elements with this class will be hidden on desktop*/
 .desktop-hidden {
     display: inherit;
+}
+
+.text-align-right{
+    text-align: right;
 }
 
 /*Header*/
@@ -188,16 +197,6 @@ main {
     background-color: rgba(239, 240, 243, 0.5);
 }
 
-.grid-container{
-    display: grid;
-    gap: 2rem;
-}
-
-.grid-1col-mobile{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 /*Main heading = the title of the page*/
 /*Container used to hold the contents and center them as flex does not have a justify self*/
 #main-heading-container {
@@ -252,6 +251,14 @@ main {
     max-width: 1100px;
     padding-bottom: 2rem;
     margin: auto;
+}
+
+#text-container section{
+    margin: 2rem 1rem
+}
+
+#text-container section div h3{
+    margin: 0;
 }
 
 
@@ -379,9 +386,15 @@ footer hr {
     }
 
     /*Main*/
-    .grid-2col-desktop{
+    /*Grid will be two columns on desktop*/
+    .grid-2col-desktop {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*Used in grids to put an item first*/
+    .order-1 {
+        order: -1;
     }
 
     #hero {
