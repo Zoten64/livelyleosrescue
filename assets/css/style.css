@@ -95,7 +95,7 @@ nav {
     align-items: flex-end;
 }
 
-#active{
+#active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 1px;
@@ -177,6 +177,10 @@ main {
     padding-top: 60px;
 }
 
+.image-side-text{
+    max-width: 50%;
+}
+
 #hero {
     height: 100px;
     /*Hero image from here: https://openclipart.org/detail/306640/desert-at-dusk
@@ -191,12 +195,38 @@ main {
     border-bottom: 2px solid var(--border-color);
 }
 
-#text-container{
+#text-container {
     width: 80%;
     max-width: 700px;
     align-self: center;
     margin: auto;
     padding-bottom: 50px;
+}
+
+#text-container section {
+    display: flex;
+    flex-direction: column;
+}
+
+#gecko-image-index{
+    display: block;
+    justify-self: right;
+    border: 3px solid var(--heading-color);
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#gecko-image-index img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--background-color);
 }
 
 /*Main heading = the title of the page*/
@@ -313,9 +343,9 @@ footer hr {
         text-underline-offset: 0;
         transition: all 0.2s;
     }
-    
+
     /*When you hover over the element these properties will change. Applies to #active to override*/
-    .nav-item:hover{
+    .nav-item:hover {
 
         transform: scale(1.2) translateY(-8px);
         /*Transition settings*/
@@ -323,7 +353,7 @@ footer hr {
         transition-timing-function: ease-in-out;
     }
 
-    .nav-item h2{
+    .nav-item h2 {
         /*Some fancy hover effect transition*/
         text-decoration: underline;
         text-decoration-color: #0d0d0d00;
@@ -331,7 +361,8 @@ footer hr {
         transition: all 0.2s;
     }
 
-    .nav-item:hover h2, #active:hover{
+    .nav-item:hover h2,
+    #active:hover {
         /*Some fancy hover effect transition*/
         text-decoration: underline;
         text-decoration-thickness: 3px;
@@ -342,7 +373,7 @@ footer hr {
 
 
     /*Main*/
-    #hero{
+    #hero {
         height: 150px;
     }
 
@@ -372,30 +403,30 @@ footer hr {
         justify-content: center;
     }
 
-    #info-footer{
+    #info-footer {
         justify-content: right;
         min-width: 150px;
         margin-right: 100px;
         margin-bottom: 25px;
     }
 
-    #info-footer h2{
+    #info-footer h2 {
         height: fit-content;
     }
 
-    #info-footer a{
+    #info-footer a {
         height: fit-content;
         margin-top: 0.5rem;
     }
 
-    #location-footer{
+    #location-footer {
         min-width: 150px;
         margin-left: 100px;
         margin-bottom: 25px;
     }
 
     /*Makes the icons grow slightly whn hovered over*/
-    .social-media-item:hover{
+    .social-media-item:hover {
         transform: scale(1.2) translateY(-5px);
     }
 }
