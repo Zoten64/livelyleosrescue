@@ -5,7 +5,7 @@
 * {
     /*Color variables. Used to easily switch colors if needed. See comment related to darkmode on the bottom*/
     --background-color: #eff0f3;
-    --background-color-2: #cfd0d4;
+    --background-color-2: #e2e4ec;
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
     --accent-color: #ff8e3c;
@@ -73,7 +73,7 @@ a {
 }
 
 /*Applies a slightly lighter color*/
-.background-color-2{
+.background-color-2 {
     background-color: var(--background-color-2);
 }
 
@@ -244,20 +244,35 @@ main {
 #text-container {
     display: grid;
     width: 80%;
+    height: min-content;
     max-width: 1100px;
     padding-bottom: 2rem;
     margin: auto;
 }
 
-#text-container section{
-    padding: 2rem 1rem
+#text-container section {
+    padding: 2rem 1rem;
+    margin-bottom: 10px;
 }
 
-#text-container section div h3{
+#text-container section div h3 {
     margin: 0;
 }
 
+/*This is for home page images, might work with other pages later*/
+.grid-image {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
 
+.grid-image img {
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    border: var(--heading-color) solid 2px;
+}
 
 
 /*Footer*/
@@ -387,8 +402,17 @@ footer hr {
     /*Grid will be two columns on desktop*/
     .grid-2col-desktop {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, auto);
+
+        align-items: center;
     }
+
+    /*This is for home page images, might work with other pages later*/
+    .grid-image {
+        align-items: flex-end;
+        margin-right: 0;
+    }
+
 
     /*Used in grids to put an item first*/
     .order-1 {
