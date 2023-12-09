@@ -195,6 +195,21 @@ main {
     background-color: rgba(239, 240, 243, 0.5);
 }
 
+/*This is for home page images, might work with other pages later*/
+.grid-image {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.grid-image img {
+    width: 100%;
+    padding: 5px;
+    border: var(--heading-color) solid 2px;
+    object-fit: cover;
+}
+
 /*Main heading = the title of the page*/
 /*Container used to hold the contents and center them as flex does not have a justify self*/
 #main-heading-container {
@@ -258,27 +273,12 @@ main {
     gap: 2rem;
 }
 
-#text-container section div p{
+#text-container section div p {
     margin-bottom: 20px;
 }
 
 #text-container section div h3 {
     margin: 0;
-}
-
-/*This is for home page images, might work with other pages later*/
-.grid-image {
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
-.grid-image img {
-    width: 100%;
-    padding: 5px;
-    border: var(--heading-color) solid 2px;
-    object-fit: cover;
 }
 
 
@@ -335,6 +335,27 @@ footer hr {
 #location-footer a {
     display: flex;
     align-items: flex-end;
+}
+
+/*For screens larger than 768px*/
+@media screen and (min-width: 768px) {
+
+    /*Main*/
+    /*Grid will be two columns on desktop*/
+    .grid-2col-desktop {
+        display: grid;
+        height: fit-content;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-2-span {
+        grid-column: span 2;
+    }
+
+    /*Used in grids to put an item first*/
+    .order-1 {
+        order: -1;
+    }
 }
 
 
@@ -405,22 +426,7 @@ footer hr {
         margin-right: 3px;
     }
 
-    /*Main*/
-    /*Grid will be two columns on desktop*/
-    .grid-2col-desktop {
-        display: grid;
-        height: fit-content;
-        grid-template-columns: repeat(3, 1fr);
-    }
 
-    .grid-2-span{
-        grid-column: span 2;
-    }
-
-    /*Used in grids to put an item first*/
-    .order-1 {
-        order: -1;
-    }
 
     #hero {
         height: 150px;
