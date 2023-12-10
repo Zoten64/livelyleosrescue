@@ -220,13 +220,13 @@ main {
     border-radius: 10px;
     background-color: var(--accent-color);
     margin-left: 0;
-    transition: all 0.3s;
+    transition: all 0.3s ease-out;
 }
 
 .link-button:hover{
     border-radius: 15px;
-    transition: all 0.3s;
-    margin-left: 10px;
+    margin-left: 20px;
+    transition: all 0.3s ease-out;
 }
 
 .link-button-arrow{
@@ -235,12 +235,12 @@ main {
 
 .link-button-text{
     margin-right: 0;
-    transition: all 0.3s;
+    transition: all 0.3s ease-out;
 }
 
 .link-button:hover .link-button-text{
     margin-right: 10px;
-    transition: all 0.3s;
+    transition: all 0.3s ease-out;
 }
 
 .link-button:hover > a span{
