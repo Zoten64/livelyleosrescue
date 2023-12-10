@@ -11,6 +11,7 @@
     --accent-color: #ff8e3c;
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
+    --overlay-color: #4b0000ad;
 
     /*Overrides default settings*/
     margin: 0;
@@ -216,12 +217,17 @@ main {
 
 #hero{
     width: 100%;
-
     /*background*/
     background: url("../images/hero.webp") center center/cover;
-
     /*Fallback in case image doesn't load*/
     background-color: var(--accent-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.hero-image-overlay{
+    background-image: linear-gradient(to right, var(--overlay-color) , rgba(0,0,0,0));
+    width: 100%;
+    height: 100%;
 }
 
 #hero-text{
@@ -232,6 +238,11 @@ main {
     flex-direction: column;
     justify-content: center;
     margin-left: 5vw;
+    color: #0d0d0d;
+}
+
+#hero-text h2, #hero-text h4{
+    color: #eff0f3;
 }
 
 .hero-button-container{
@@ -246,7 +257,8 @@ main {
     margin-right: 15px ;
     padding: 10px;
     background-color: #eff0f3;
-    color: var(--accent-color);
+    color: #0d0d0d !important;
+    font-weight: bold;
     border-radius: 15px;
     /*Hover effect*/
     transition: all 0.2s ease-out;
@@ -489,10 +501,5 @@ the color variables declared above. Accent stays the same*/
         --paragraph-color: #94a1b2;
         --border-color: #0c0c0ce8;
         --shadow-color: #07070715;
-    }
-
-    /*Makes the hero darker to make it contrast more with the header, making the header more visible*/
-    .hero-image-overlay {
-        background-color: rgba(22, 22, 26, 0.5);
     }
 }
