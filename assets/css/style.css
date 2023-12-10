@@ -244,6 +244,15 @@ main {
     background-color: #eff0f3;
     color: var(--accent-color);
     border-radius: 15px;
+    /*Hover effect*/
+    transition: all 0.2s ease-out;
+}
+
+/*Hover effect*/
+.hero-button:hover h4{
+    transform: scale(1.1);
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
 }
 
 /*404 page styles*/
