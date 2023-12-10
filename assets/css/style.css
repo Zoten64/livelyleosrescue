@@ -327,7 +327,7 @@ main {
 /*404 page styles*/
 
 #text-404{
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -514,6 +514,11 @@ footer hr {
     #image-404{
         margin: 0 30%;
         margin-top: 20px;
+    }
+
+    #text-404{
+        font-size: 2em;
+        text-align: center;
     }
 
     /*Footer styles*/
