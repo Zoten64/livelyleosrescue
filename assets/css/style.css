@@ -217,6 +217,10 @@ main {
 #hero{
     width: 100%;
 
+    /*background*/
+    background: url("../images/hero.webp") center center/cover;
+
+    /*Fallback in case image doesn't load*/
     background-color: var(--accent-color);
 }
 
