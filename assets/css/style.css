@@ -336,6 +336,7 @@ main {
 }
 
 #button-404{
+    margin-top: 2em;
     font-size: 1.2em;
     width: fit-content;
     padding: 1em;
