@@ -343,13 +343,13 @@ main {
     padding: 1em;
     border-radius: 10px;
     background-color: var(--accent-color);
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 #button-404:hover{
     border-radius: 15px;
-    padding: 1em 2em;
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
 }
 
 
