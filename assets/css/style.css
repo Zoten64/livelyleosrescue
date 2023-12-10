@@ -44,6 +44,12 @@ h3 {
     font-size: 16px;
 }
 
+h4{
+    color: var(--heading-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 p {
     color: var(--paragraph-color);
     font-size: 16px;
@@ -197,6 +203,7 @@ nav {
 }
 
 /*Main content*/
+/*General styles*/
 main {
     background-color: var(--background-color);
     /*Makes the main element take up any unused space*/
@@ -205,6 +212,39 @@ main {
     padding-top: 60px;
 }
 
+/*index.html styles*/
+
+#hero{
+    width: 100%;
+
+    background-color: var(--accent-color);
+}
+
+#hero-text{
+    max-width: 500px;
+    width: 90%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.hero-button-container{
+    display: flex;
+    max-width: 500px;
+    padding-bottom: 25px;
+}
+
+.hero-button h4{
+    width: fit-content;
+    margin-top: 2rem;
+    margin-right: 15px ;
+    padding: 10px;
+    background-color: #eff0f3;
+    color: var(--accent-color);
+    border-radius: 15px;
+}
 
 /*404 page styles*/
 
@@ -309,27 +349,6 @@ footer hr {
     align-items: flex-end;
 }
 
-/*For screens larger than 768px*/
-@media screen and (min-width: 768px) {
-
-    /*Main*/
-    /*Grid will be two columns on desktop*/
-    .grid-2col-desktop {
-        display: grid;
-        height: fit-content;
-        grid-template-columns: repeat(3, auto);
-    }
-
-    .grid-2-span {
-        grid-column: span 2;
-    }
-
-    /*Used in grids to put an item first*/
-    .order-1 {
-        order: -1;
-    }
-}
-
 
 /*For screens larger than 992px*/
 @media screen and (min-width: 992px) {
@@ -399,17 +418,7 @@ footer hr {
     }
 
     /*Main*/
-    #hero {
-        height: 150px;
-    }
 
-    #main-heading h2 {
-        font-size: 4em;
-    }
-
-    #hamburger-menu-container {
-        display: none;
-    }
 
     /*404 styles*/
     #image-404{
