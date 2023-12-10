@@ -212,6 +212,7 @@ main {
 }
 
 .link-button{
+    position: relative;
     height: 24px;
     box-sizing: content-box;
     font-size: 1.2em;
