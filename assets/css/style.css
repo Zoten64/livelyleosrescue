@@ -452,7 +452,7 @@ div .mission-item:nth-child(3) {
     height: 24px;
     box-sizing: content-box;
     font-size: 1.2em;
-    width: 90%;
+    max-width: 90%;
     padding: 1em;
     border-radius: 10px;
     background-color: var(--accent-color);
