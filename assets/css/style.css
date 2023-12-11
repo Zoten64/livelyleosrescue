@@ -548,6 +548,29 @@ div .mission-item:nth-child(3) {
 
 /*Contact forms*/
 
+input[type=submit]{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+    background-color: var(--accent-color);
+    color: #eff0f3;
+    transition: all 0.2s;
+}
+
+input[type=submit]:hover{
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.contact-form{
+    background-color: var(--background-color-2);
+    padding: 1rem;
+}
+
+.contact-form form, .contact-form form textarea{
+    display: block;
+}
 
 /*404 page styles*/
 

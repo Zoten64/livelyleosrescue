@@ -143,25 +143,37 @@
             <section class="contact-form">
                 <h2>Contact form</h2>
                 <form action="form_confirm.html">
-                    <label for="name">Full Name</label>
+                    <label for="name">
+                        <h4>Full Name</h4>
+                    </label>
                     <input type="text" id="name" name="name" required>
 
-                    <label for="phone-number">Phone Number</label>
+                    <label for="phone-number">
+                        <h4>Phone number</h4>
+                    </label>
                     <input type="tel" id="phone-number" name="phone-number" required>
 
-                    <label for="found-gecko">I found this gecko</label>
-                    <input type="radio" id="found-gecko" name="rescue-type">
-
-                    <label for="my-gecko">This is my gecko</label>
-                    <input type="radio" id="my-gecko" name="rescue-type">
-
-                    <label for="other-gecko">Other</label>
-                    <input type="radio" id="other-gecko" name="rescue-type">
-
-                    <label for="where-found">Where did you find the leopard gecko?</label>
+                    <hr>
+                    <h3>How did you get the leopard gecko?</h3>
+                    <div>
+                        
+                        <input type="radio" id="found-gecko" name="rescue-type">
+                        <label for="found-gecko"><h4>I found this gecko</h4></label>
+                    </div>
+                    <div>
+                        
+                        <input type="radio" id="my-gecko" name="rescue-type">
+                        <label for="my-gecko"><h4>This is my gecko</h4></label>
+                    </div>
+                    <div>
+                        
+                        <input type="radio" id="other-gecko" name="rescue-type">
+                        <label for="other-gecko"><h4>Other</h4></label>
+                    </div>
+                    <label for="where-found"><h3>Where did you find the leopard gecko?</h3></label>
                     <textarea name="where-found" id="where-found" maxlength="1000"></textarea>
 
-                    <label for="other-info">Other useful information</label>
+                    <label for="other-info"><h3>Is there anything else we should know?</h3></label>
                     <textarea name="other-info" id="other-info" maxlength="2000"></textarea>
 
                     <input type="submit" value="Submit">
