@@ -552,6 +552,10 @@ footer hr {
         margin-right: 3px;
     }
 
+    #hamburger-menu-container{
+        display: none;
+    }
+
     /*Main*/
 
 
