@@ -548,10 +548,15 @@ div .mission-item:nth-child(3) {
 
 /*Contact forms*/
 
+input, textarea{
+    margin: 0.5rem 0;
+}
+
 input[type=submit]{
     font-size: 1.5rem;
     padding: 1rem;
     margin: 1rem 0;
+    margin-top: 2rem;
     border-radius: 15px;
     background-color: var(--accent-color);
     color: #eff0f3;
@@ -563,9 +568,21 @@ input[type=submit]:hover{
     transition: all 0.2s;
 }
 
+input[type=text], textarea{
+    height: 2rem;
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid var(--heading-color);
+}
+
+textarea{
+    height: 5rem;
+}
+
 .contact-form{
     background-color: var(--background-color-2);
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
 }
 
 .contact-form form, .contact-form form textarea{
