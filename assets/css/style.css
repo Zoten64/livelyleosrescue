@@ -448,23 +448,19 @@ div .mission-item:nth-child(3) {
 /*Classes*/
 /*Button effects*/
 .link-button{
-    position: relative;
     height: 24px;
     box-sizing: content-box;
     font-size: 1.2em;
     max-width: 90%;
-    padding: 1em;
-    border-radius: 10px;
-    background-color: var(--accent-color);
+    margin: 1rem;
     margin-left: 0;
-    transition: all 0.3s ease-out;
 
-    margin: 10px;
+    transition: all 0.3s ease-out;
 }
 
 .link-button:hover{
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 1rem;
     transition: all 0.3s ease-out;
 }
 
