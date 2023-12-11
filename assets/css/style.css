@@ -5,7 +5,7 @@
 * {
     /*Color variables. Used to easily switch colors if needed. See comment related to darkmode on the bottom*/
     --background-color: #eff0f3;
-    --background-color-2: #e2e4ec;
+    --background-color-2: #e9d6c9;
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
     --paragraph-color-2: #1b1b1b;
@@ -73,7 +73,7 @@ a {
     color: var(--heading-color);
 }
 
-hr{
+hr {
     height: 2rem;
 }
 
@@ -93,6 +93,7 @@ hr{
 /*Applies a slightly lighter color*/
 .background-color-2 {
     background-color: var(--background-color-2);
+    padding: 1rem;
 }
 
 .center {
@@ -100,7 +101,7 @@ hr{
     justify-content: center;
 }
 
-.vertical-center-flex{
+.vertical-center-flex {
     display: flex;
     align-content: center;
 }
@@ -109,7 +110,7 @@ hr{
     text-align: center;
 }
 
-.white{
+.white {
     color: #eff0f3;
     text-decoration-color: #e2e4ec !important;
 }
@@ -259,13 +260,10 @@ main {
 
 /*index.html styles*/
 /*Classes*/
-.text-container{
+.text-container {
     display: block;
-    width: 80%;
+    width: 100%;
     height: min-content;
-    max-width: 1100px;
-    padding-bottom: 2rem;
-    margin: 2rem auto;
 }
 
 .hero-image-overlay {
@@ -406,12 +404,12 @@ div .mission-item:nth-child(3) {
     justify-content: center;
 }
 
-#who-we-are{
+#who-we-are {
     background-color: var(--accent-color);
     padding-top: 30px;
 }
 
-#who-we-are a h3{
+#who-we-are a h3 {
     margin-top: 30px;
     background-color: #eff0f3;
     color: #0d0d0d;
@@ -422,26 +420,26 @@ div .mission-item:nth-child(3) {
     transition: all 0.2s;
 }
 
-#who-we-are a h3:hover{
+#who-we-are a h3:hover {
     border-radius: 30px;
     transform: scale(1.1);
     /*Transition settings*/
     transition: all 0.2s;
 }
 
-#who-we-are-grid div{
+#who-we-are-grid div {
     margin: 30px;
     margin-top: 0;
 }
 
-#who-we-are-image img{
+#who-we-are-image img {
     max-width: 400px;
 }
 
 /*Guide page styles*/
 /*Classes*/
 /*Button effects*/
-.link-button{
+.link-button {
     height: 24px;
     box-sizing: content-box;
     font-size: 1.2em;
@@ -452,105 +450,99 @@ div .mission-item:nth-child(3) {
     transition: all 0.3s ease-out;
 }
 
-.link-button:hover{
+.link-button:hover {
     border-radius: 15px;
     margin-left: 1rem;
     transition: all 0.3s ease-out;
 }
 
-.link-button-arrow{
+.link-button-arrow {
     display: none;
 }
 
-.link-button-text{
+.link-button-text {
     height: 28px;
     margin-right: 0;
     transition: all 0.3s ease-out;
 }
 
-.link-button:hover .link-button-text{
+.link-button:hover .link-button-text {
     margin-right: 10px;
     transition: all 0.3s ease-out;
 }
 
-.link-button:hover > a span{
+.link-button:hover>a span {
     display: inline;
 }
 
-.guide-section{
-    background-color: var(--accent-color);
+.guide-section {
+    background-color: var(--background-color-2);
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0px 1px 5px 5px var(--shadow-color);
 }
 
-.guide-section h2{
-    color: #eff0f3;
-}
-
-.guide-section p{
-    color: #eff0f3;
+.guide-section p {
     margin-top: 1rem;
 }
 
-.guide-section img{
+.guide-section img {
     width: 100%;
     max-width: 400px;
     float: right;
-    border: 4px solid #eff0f3;
+    border: 4px solid var(--heading-color);
     margin: 1rem 0;
 }
 
 /*IDs*/
-#guide-intro{
-    margin-top: 80px;
+#link-button-conatiner{
+    margin-left: 2rem;
+}
+
+#guide-intro {
+    margin: 80px 1rem;
 }
 
 
 /*Our leos page style*/
-.adoptable-section{
+.adoptable-section {
     margin: 4rem auto;
     max-width: 600px;
-    background-color: var(--accent-color);
+    background-color: var(--background-color-2);
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0px 1px 5px 5px var(--shadow-color);
 }
 
-.adoptable-section h2{
-    color: #eff0f3;
-}
-
-.adoptable-section p{
-    color: #eff0f3;
+.adoptable-section p {
     margin-top: 1rem;
 }
 
-.adoptable-section img{
+.adoptable-section img {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
-    border: 4px solid #eff0f3;
+    border: 4px solid var(--heading-color);
     margin: 1rem 0;
 }
 
-.adoptable-section ul{
+.adoptable-section ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 1rem;
 }
 
-.adoptable-section ul li{
+.adoptable-section ul li {
     font-size: 1.1rem;
-    color: #eff0f3;
+    color: var(--heading-color);
     margin: 5px 0;
     padding: 5px 7px;
-    border: 2px solid #eff0f3;
+    background-color: var(--accent-color);
     border-radius: 15px;
 }
 
-.adoptable-section p{
+.adoptable-section p {
     margin: 1rem;
 }
 
@@ -570,7 +562,7 @@ div .mission-item:nth-child(3) {
     text-decoration-thickness: 5px;
 }
 
-#image-404{
+#image-404 {
     margin-top: 20px;
 }
 
@@ -654,7 +646,23 @@ footer hr {
 
 /*Media Query: Tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Main*/
+    .text-container {
+        display: block;
+        width: 80%;
+        height: min-content;
+        max-width: 1100px;
+        padding-bottom: 2rem;
+        margin: 2rem auto;
+    }
+
+    .background-color-2 {
+        background-color: var(--background-color-2);
+        padding: 2rem;
+        border-radius: 30px;
+    }
+
     #who-we-are {
         /*Sizeing*/
         width: 100%;
@@ -663,20 +671,20 @@ footer hr {
         padding: 30px 0;
         border-radius: 15px;
     }
-    
+
     #who-we-are-grid {
         /*grid stuff*/
         display: grid;
         height: fit-content;
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    #who-we-are-grid div{
+
+    #who-we-are-grid div {
         margin: 0px 30px;
         padding-top: 30px;
     }
-    
-    #who-we-are-image img{
+
+    #who-we-are-image img {
         max-width: 310px;
     }
 }
