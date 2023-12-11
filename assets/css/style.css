@@ -404,6 +404,24 @@ div .mission-item:nth-child(3) {
     padding-top: 30px;
 }
 
+#who-we-are a h3{
+    margin-top: 30px;
+    background-color: #eff0f3;
+    color: #0d0d0d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    /*Transition settings*/
+    transition: all 0.2s;
+}
+
+#who-we-are a h3:hover{
+    border-radius: 30px;
+    transform: scale(1.1);
+    /*Transition settings*/
+    transition: all 0.2s;
+}
+
 #who-we-are-grid div{
     margin: 30px;
     margin-top: 0;
