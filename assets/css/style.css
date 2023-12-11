@@ -99,6 +99,11 @@ a {
     text-align: center;
 }
 
+.white{
+    color: #eff0f3;
+    text-decoration-color: #e2e4ec !important;
+}
+
 /*As a general rule, unrelated paragraph and headings should have 2x the margin as related ones*/
 /*This makes it easier to distinguish the related and unrelated sections in larger blocks of texts*/
 .text-margin-x1 {
@@ -306,20 +311,21 @@ div .mission-item:nth-child(3) {
 }
 
 /*Hover effect*/
-.mission-item:hover{
+.mission-item:hover {
     background-size: 200%;
     transition: all 0.5s ease-out;
 }
 
-.mission-item div *{
+.mission-item div * {
     padding: 0.5rem;
 }
 
-.mission-item div p, .mission-item div h2{
+.mission-item div p,
+.mission-item div h2 {
     color: #eff0f3;
 }
 
-.mission-button{
+.mission-button {
     margin: 10px;
     border-radius: 10px;
     display: block;
@@ -327,26 +333,33 @@ div .mission-item:nth-child(3) {
     transition: all 0.5s;
 }
 
-.mission-item:hover .mission-button{
+.mission-item:hover .mission-button {
     transform: scale(1.05);
     transition: all 0.5s;
 }
 
-.mission-button h3{
+.mission-button h3 {
     color: #eff0f3;
 }
 
-#who-we-are-container{
+#who-we-are-container {
     display: flex;
     justify-content: center;
 }
 
-#who-we-are{
+#who-we-are {
+    /*Sizeing*/
     width: 100%;
     max-width: 760px;
     margin: 0 20px;
     padding: 30px;
     background-color: var(--accent-color);
+}
+
+#who-we-are-grid {
+    /*grid stuff*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /*IDs*/
@@ -564,7 +577,7 @@ footer hr {
         margin-right: 3px;
     }
 
-    #hamburger-menu-container{
+    #hamburger-menu-container {
         display: none;
     }
 
