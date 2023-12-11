@@ -552,6 +552,10 @@ div .mission-item:nth-child(3) {
     border-radius: 15px;
 }
 
+.adoptable-section p{
+    margin: 1rem;
+}
+
 /*404 page styles*/
 
 #section-404 {
