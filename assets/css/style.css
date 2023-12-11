@@ -556,6 +556,25 @@ div .mission-item:nth-child(3) {
     margin: 1rem;
 }
 
+/*Contact redirect. Used on both rescue and our leos pages*/
+.contact-redirect-button{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: var(--accent-color);
+    padding: 2rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.contact-redirect-button:hover{
+    padding: 2rem 3rem;
+    border-radius: 40px;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
 /*404 page styles*/
 
 #section-404 {
