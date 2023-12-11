@@ -34,7 +34,7 @@ body {
     overflow-x: hidden;
 }
 
-section{
+section {
     margin-bottom: 80px;
 }
 
@@ -107,7 +107,7 @@ a {
     margin-top: 2rem;
 }
 
-.lined-heading{
+.lined-heading {
     text-align: center;
     font-size: 1.5em;
     text-decoration: underline;
@@ -116,7 +116,7 @@ a {
     text-decoration-color: var(--heading-color);
 }
 
-.lined-heading h2{
+.lined-heading h2 {
     font-size: 1.5rem;
 }
 
@@ -267,14 +267,30 @@ main {
     transition: all 0.2s ease-out;
 }
 
-.mission-item{
+.mission-item {
     width: 200px;
     aspect-ratio: 1;
     border-radius: 10px;
     background-color: var(--accent-color);
     border-color: #0d0d0d;
     margin: 40px;
+    background-size: cover;
 }
+
+div .mission-item:nth-child(1) {
+    background-image: url("../images/leopard_gecko_index_care.jpg");
+}
+
+div .mission-item:nth-child(2) {
+    background-image: url("../images/leopard_gecko_index_why.jpg");
+    background-position: 30%;
+
+}
+
+div .mission-item:nth-child(3) {
+    background-image: url("../images/leopard-gecko-index-rescue.jpg");
+}
+
 
 /*IDs*/
 #hero {
@@ -303,11 +319,11 @@ main {
 }
 
 
-#mission{
+#mission {
     height: fit-content;
 }
 
-#mission-item-container{
+#mission-item-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
