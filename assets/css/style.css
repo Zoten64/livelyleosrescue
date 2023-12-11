@@ -8,6 +8,7 @@
     --background-color-2: #e2e4ec;
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
+    --paragraph-color-2: #1b1b1b;
     --accent-color: #ff8e3c;
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
@@ -344,13 +345,6 @@ div .mission-item:nth-child(3) {
     color: #eff0f3;
 }
 
-.mission-button {
-    height: 33%;
-    display: block;
-    background-color: var(--darken-color);
-    transition: all 0.5s;
-}
-
 .mission-button h3 {
     color: #eff0f3;
 }
@@ -483,14 +477,34 @@ div .mission-item:nth-child(3) {
     display: inline;
 }
 
+.guide-section{
+    background-color: var(--accent-color);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px 5px var(--shadow-color);
+}
+
+.guide-section h2{
+    color: #eff0f3;
+}
+
+.guide-section p{
+    color: #eff0f3;
+    margin-top: 1rem;
+}
+
+.guide-section img{
+    width: 100%;
+    max-width: 400px;
+    float: right;
+    border: 4px solid #eff0f3;
+}
+
+.guide-section
+
 /*IDs*/
 #guide-intro{
     margin-top: 80px;
-}
-
-#guide-button-container{
-    max-width: 585px;
-    margin: auto;
 }
 
 /*404 page styles*/
@@ -747,6 +761,7 @@ the color variables declared above. Accent stays the same*/
         --background-color-2: #1a1a1f;
         --heading-color: #fffffe;
         --paragraph-color: #94a1b2;
+        --paragraph-color-2: #e6eefa;
         --border-color: #0c0c0ce8;
         --shadow-color: #07070715;
     }
