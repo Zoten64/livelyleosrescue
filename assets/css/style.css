@@ -312,8 +312,30 @@ div .mission-item:nth-child(3) {
 }
 
 .mission-item div *{
-    padding-top: 1rem;
+    padding: 0.5rem;
 }
+
+.mission-item div p, .mission-item div h2{
+    color: #eff0f3;
+}
+
+.mission-button{
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    background-color: var(--darken-color);
+    transition: all 0.5s;
+}
+
+.mission-item:hover .mission-button{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.mission-button h3{
+    color: #eff0f3;
+}
+
 
 /*IDs*/
 #hero {
