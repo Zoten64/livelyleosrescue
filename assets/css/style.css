@@ -12,6 +12,8 @@
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
     --overlay-color: #4b0000ad;
+    --darken-color: rgba(0, 0, 0, 0.5);
+
 
     /*Overrides default settings*/
     margin: 0;
@@ -119,6 +121,14 @@ a {
 .lined-heading h2 {
     font-size: 1.5rem;
 }
+
+/*An overlay that darkens the color*/
+.darker {
+    background-color: var(--darken-color);
+    width: 100%;
+    height: 100%;
+}
+
 
 /*Header*/
 header {
@@ -270,12 +280,11 @@ main {
 .mission-item {
     width: 200px;
     aspect-ratio: 1;
-    filter: brightness(50%);
     border-radius: 10px;
     border: 3px solid #0d0d0d;
     background-color: var(--accent-color);
     margin: 40px;
-    background-size: 150%;
+    background-size: 160%;
     background-position: center;
     /*Transition on hover*/
     transition: all 0.5s ease-out;
@@ -293,14 +302,17 @@ div .mission-item:nth-child(2) {
 
 div .mission-item:nth-child(3) {
     background-image: url("../images/leopard-gecko-index-rescue.jpg");
-    background-position: 10%;
+    background-position: 10% 10%;
 }
 
 /*Hover effect*/
 .mission-item:hover{
     background-size: 200%;
-    filter: brightness(20%);
     transition: all 0.5s ease-out;
+}
+
+.mission-item div *{
+    padding-top: 1rem;
 }
 
 /*IDs*/
