@@ -270,11 +270,15 @@ main {
 .mission-item {
     width: 200px;
     aspect-ratio: 1;
+    filter: brightness(50%);
     border-radius: 10px;
+    border: 3px solid #0d0d0d;
     background-color: var(--accent-color);
-    border-color: #0d0d0d;
     margin: 40px;
-    background-size: cover;
+    background-size: 150%;
+    background-position: center;
+    /*Transition on hover*/
+    transition: all 0.5s ease-out;
 }
 
 div .mission-item:nth-child(1) {
@@ -289,8 +293,15 @@ div .mission-item:nth-child(2) {
 
 div .mission-item:nth-child(3) {
     background-image: url("../images/leopard-gecko-index-rescue.jpg");
+    background-position: 10%;
 }
 
+/*Hover effect*/
+.mission-item:hover{
+    background-size: 200%;
+    filter: brightness(20%);
+    transition: all 0.5s ease-out;
+}
 
 /*IDs*/
 #hero {
