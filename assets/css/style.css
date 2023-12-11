@@ -501,8 +501,6 @@ div .mission-item:nth-child(3) {
     margin: 1rem 0;
 }
 
-.guide-section
-
 /*IDs*/
 #guide-intro{
     margin-top: 80px;
@@ -556,24 +554,8 @@ div .mission-item:nth-child(3) {
     margin: 1rem;
 }
 
-/*Contact redirect. Used on both rescue and our leos pages*/
-.contact-redirect-button{
-    display: block;
-    width: fit-content;
-    margin: auto;
-    text-align: center;
-    background-color: var(--accent-color);
-    padding: 2rem;
-    border-radius: 20px;
-    transition: all 0.3s ease-out;
-}
+/*Contact forms*/
 
-.contact-redirect-button:hover{
-    padding: 2rem 3rem;
-    border-radius: 40px;
-    transform: scale(1.1);
-    transition: all 0.3s ease-out;
-}
 
 /*404 page styles*/
 
