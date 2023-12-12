@@ -576,6 +576,7 @@ input[type=text], textarea{
     border: 2px solid var(--heading-color);
 }
 
+/*Tutorial for cutom radio buttons from here: https://moderncss.dev/pure-css-custom-styled-radio-buttons/*/
 input[type=radio]{
     vertical-align: bottom;
     margin: 0;
