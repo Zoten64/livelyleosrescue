@@ -203,6 +203,13 @@ nav {
 
 }
 
+#logo-about-section{
+    display: block;
+    width: 90%;
+    max-width: 400px; 
+    margin: auto;
+}
+
 #menu {
     width: 100%;
     text-align: right;
