@@ -12,6 +12,7 @@
     --accent-color: #ff8e3c;
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
+    /*Overlays. Used to create more contrast between elements, especially images*/
     --overlay-color: #4b0000ad;
     --darken-color: rgba(0, 0, 0, 0.5);
 
@@ -37,10 +38,12 @@ body {
     overflow-x: hidden;
 }
 
+/*Each section by default will have a margin to create space for better readability*/
 section {
     margin-bottom: 80px;
 }
 
+/*H1 is used exclusively for the logo text*/
 h1,
 h2 {
     color: var(--heading-color);
@@ -77,6 +80,7 @@ hr {
     height: 2rem;
 }
 
+/*General classes that can be used all over*/
 .icon-align-bottom {
     vertical-align: bottom;
 }
@@ -101,6 +105,7 @@ hr {
     justify-content: center;
 }
 
+/*Appplies display:flex to the item and centers the content vertically*/
 .vertical-center-flex {
     display: flex;
     align-content: center;
@@ -110,6 +115,7 @@ hr {
     text-align: center;
 }
 
+/*Text with this class will be white*/
 .white {
     color: #eff0f3;
     text-decoration-color: #eff0f3 !important;
@@ -125,6 +131,7 @@ hr {
     margin-top: 2rem;
 }
 
+/*This is applied to the parent element of a heading to make it underlined in a specific style. Used on the hero image texts*/
 .lined-heading {
     text-align: center;
     font-size: 1.5em;
@@ -174,6 +181,7 @@ nav {
 }
 
 /*IDs*/
+/*The page the user is currently on will be underlined in the navbar*/
 #active {
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -181,6 +189,7 @@ nav {
     text-decoration-color: var(--heading-color);
 }
 
+/*The text next to the logo*/
 #logo-text {
     font-size: 1.2em;
     margin-left: 5px;
@@ -194,6 +203,7 @@ nav {
     height: 3em;
 }
 
+/*Used on logo links to redirect to the home page*/
 #logo a {
     display: inline-block;
     height: 0;
@@ -201,16 +211,18 @@ nav {
 
 #logo a img {
     width: 3em;
-
 }
 
-#logo-about-section{
+/*Exclusive to the logo image at the bottom of the about us page*/
+#logo-about-section {
     display: block;
-    width: 90%;
-    max-width: 300px; 
+    width: 80%;
+    max-width: 300px;
     margin: auto;
+    margin-bottom: 80px;
 }
 
+/*Container of the navbar items*/
 #menu {
     width: 100%;
     text-align: right;
@@ -236,6 +248,7 @@ nav {
     margin-right: 10px;
 }
 
+/*Uses flex to position the hamburger menu correctly*/
 #hamburger-menu-container {
     display: flex;
     justify-content: flex-end;
@@ -243,12 +256,13 @@ nav {
     margin-right: 10px;
 }
 
-
+/*Hambrurger icon style*/
 #hamburger-menu-icon span {
     font-size: 3em;
     color: var(--heading-color);
 }
 
+/*Checking the hamburger menu box will style the navbar*/
 #hamburger-menu-toggle:checked~nav {
     /*Menu displays when the checkbox is pressed*/
     display: block;
@@ -268,25 +282,28 @@ main {
 
 /*index.html styles*/
 /*Classes*/
+/*Used to keep the sections in a certain place and within a certain width*/
 .text-container {
     display: block;
     width: 100%;
     height: min-content;
 }
 
+/*Creates a gradient that makes the home page hero text easier to read*/
 .hero-image-overlay {
     background-image: linear-gradient(to right, var(--overlay-color), rgba(0, 0, 0, 0));
     width: 100%;
     height: 100%;
 }
 
+/*Buttons within the hero section*/
 .hero-button-container {
     display: flex;
     max-width: 500px;
     padding-bottom: 25px;
 }
 
-
+/*Styles the hero button*/
 .hero-button h4 {
     width: fit-content;
     margin-top: 2rem;
@@ -307,6 +324,7 @@ main {
     transition: all 0.2s ease-out;
 }
 
+/*The three redirects on the home page about the most important features of the site*/
 .mission-item {
     min-width: 200px;
     max-width: 200px;
@@ -321,6 +339,7 @@ main {
     transition: all 0.5s ease-out;
 }
 
+/*Sets a different background for each mission button. Some have an altered background position*/
 div .mission-item:nth-child(1) {
     background-image: url("../images/leopard_gecko_index_care.jpg");
 }
@@ -342,10 +361,12 @@ div .mission-item:nth-child(3) {
     transition: all 0.5s ease-out;
 }
 
+/*Everything in the div that is a child of the button will have a padding*/
 .mission-item div * {
     padding: 0.5rem;
 }
 
+/*Overrides the default colors of the text within these buttons*/
 .mission-item div p,
 .mission-item div h2 {
     color: #eff0f3;
@@ -355,15 +376,16 @@ div .mission-item:nth-child(3) {
     color: #eff0f3;
 }
 
+/*Used on parent elements to images to put them in the center*/
 .image-grid {
     height: 100%;
     display: grid;
     justify-items: center;
 }
 
-
 .image-grid img {
     width: 100%;
+    max-width: 500px;
     height: 100%;
     padding: 5px;
     aspect-ratio: 10/7;
@@ -392,6 +414,7 @@ div .mission-item:nth-child(3) {
     color: #0d0d0d;
 }
 
+/*Overrides the text colors of the hero element*/
 #hero-text h2,
 #hero-text h4 {
     color: #eff0f3;
@@ -407,6 +430,7 @@ div .mission-item:nth-child(3) {
     flex-wrap: wrap;
 }
 
+/*A mini about section*/
 #who-we-are-container {
     display: flex;
     justify-content: center;
@@ -428,6 +452,7 @@ div .mission-item:nth-child(3) {
     transition: all 0.2s;
 }
 
+/*Animates on hover*/
 #who-we-are a h3:hover {
     border-radius: 30px;
     transform: scale(1.1);
@@ -435,6 +460,7 @@ div .mission-item:nth-child(3) {
     transition: all 0.2s;
 }
 
+/*Makes the image display on top on mobile and on the side on desktop*/
 #who-we-are-grid div {
     margin: 30px;
     margin-top: 0;
@@ -464,10 +490,12 @@ div .mission-item:nth-child(3) {
     transition: all 0.3s ease-out;
 }
 
+/*The arrow will not show unless the link is hovered*/
 .link-button-arrow {
     display: none;
 }
 
+/*Uses the margin to move the text to the right on hover*/
 .link-button-text {
     height: 28px;
     margin-right: 0;
@@ -479,10 +507,12 @@ div .mission-item:nth-child(3) {
     transition: all 0.3s ease-out;
 }
 
+/*makes the arrow and text sit on the same line*/
 .link-button:hover>a span {
     display: inline;
 }
 
+/*Section styling specifically for the guide page*/
 .guide-section {
     background-color: var(--background-color-2);
     padding: 2rem;
@@ -503,7 +533,8 @@ div .mission-item:nth-child(3) {
 }
 
 /*IDs*/
-#link-button-conatiner{
+/*Aligns the buttons slightly to the right*/
+#link-button-container {
     margin-left: 2rem;
 }
 
@@ -513,6 +544,7 @@ div .mission-item:nth-child(3) {
 
 
 /*Our leos page style*/
+/*Styles specifically for the adoption page, aka our_leos.html*/
 .adoptable-section {
     margin: 4rem auto;
     max-width: 600px;
@@ -523,7 +555,7 @@ div .mission-item:nth-child(3) {
 }
 
 .adoptable-section p {
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .adoptable-section img {
@@ -534,6 +566,8 @@ div .mission-item:nth-child(3) {
     margin: 1rem 0;
 }
 
+/*The little labels inside the section telling the user about the 
+age, name, gender and morph of the specific gecko*/
 .adoptable-section ul {
     display: flex;
     flex-wrap: wrap;
@@ -550,17 +584,15 @@ div .mission-item:nth-child(3) {
     border-radius: 15px;
 }
 
-.adoptable-section p {
-    margin: 1rem;
-}
-
 /*Contact forms*/
 
-input, textarea{
+input,
+textarea {
     margin: 0.5rem 0;
 }
 
-input[type=submit]{
+/*Styles for the submit button*/
+input[type=submit] {
     font-size: 1.5rem;
     padding: 1rem;
     margin: 1rem 0;
@@ -571,12 +603,14 @@ input[type=submit]{
     transition: all 0.2s;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     border-radius: 20px;
     transition: all 0.2s;
 }
 
-input[type=text], textarea{
+/*Text input fields will be limited in length and styled*/
+input[type=text],
+textarea {
     height: 2rem;
     width: 90%;
     max-width: 400px;
@@ -584,8 +618,12 @@ input[type=text], textarea{
     border: 2px solid var(--heading-color);
 }
 
+textarea {
+    height: 5rem;
+}
+
 /*Tutorial for cutom radio buttons from here: https://moderncss.dev/pure-css-custom-styled-radio-buttons/*/
-input[type=radio]{
+input[type=radio] {
     vertical-align: bottom;
     margin: 0;
     margin-bottom: 3px;
@@ -598,32 +636,33 @@ input[type=radio]{
     transition: all 0.2s;
 }
 
-input[type=radio]:checked{
+input[type=radio]:checked {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     border-radius: 30%;
     transition: all 0.2s;
 }
 
-textarea{
-    height: 5rem;
-}
-
-.contact-form{
+/*The container of the form*/
+.contact-form {
     background-color: var(--background-color-2);
     padding: 2rem;
     border-radius: 15px;
 }
 
-.contact-form form, .contact-form form textarea{
+/*Makes them display on new lines*/
+.contact-form form,
+.contact-form form textarea {
     display: block;
 }
 
-.radio-button{
+/*Gives some space between the button and label elements. Used on divs containing the radio button and it's labels*/
+.radio-button {
     margin-top: 1rem;
 }
 
-.radio-button h4{
+/*Makes the label show next to the button*/
+.radio-button h4 {
     font-size: 1.3em;
     display: inline;
 }
@@ -645,6 +684,7 @@ textarea{
     margin-top: 20px;
 }
 
+/*The button that takes you back to the home page*/
 #button-404 {
     text-align: center;
     margin-top: 2em;
@@ -670,6 +710,7 @@ footer {
     border-top: 2px solid var(--border-color);
 }
 
+/*The divider at the footer*/
 footer hr {
     width: 90%;
     align-self: center;
@@ -678,7 +719,7 @@ footer hr {
 }
 
 /*Classes*/
-
+/*The socials links in the footer*/
 .social-media-item {
     text-align: center;
     margin: auto 5px;
@@ -698,12 +739,13 @@ footer hr {
     padding: 15px 40px;
 }
 
+/*Styles the icons*/
 #social-media i {
     font-size: 2em;
 }
 
 /*Contact and location*/
-
+/*The containers for the information boxes in the footer*/
 #info-footer,
 #location-footer {
     margin: 15px;
@@ -736,14 +778,16 @@ footer hr {
         margin: 2rem auto;
     }
 
+    /*On desktop it will have round corners. On mobile it conencts to the sides*/
     .background-color-2 {
         background-color: var(--background-color-2);
         padding: 2rem;
         border-radius: 30px;
     }
 
+    /*Mini about us section at the home page*/
     #who-we-are {
-        /*Sizeing*/
+        /*Sizing*/
         width: 100%;
         max-width: 760px;
         margin: 0 20px;
@@ -778,6 +822,7 @@ footer hr {
     }
 
     /*Navigation bar*/
+    /*On tablets the hamburger menu will be replaced by elements that follow each other*/
     nav {
         display: flex;
         position: relative;
@@ -822,6 +867,7 @@ footer hr {
     }
 
     /*IDs*/
+    /*Links will appear in a row*/
     #menu {
         display: flex;
         border: none;
@@ -855,12 +901,14 @@ footer hr {
 
     /*Footer styles*/
     /*Classes*/
-    /*Makes the icons grow slightly whn hovered over*/
+    /*Makes the icons grow slightly when hovered over*/
     .social-media-item:hover {
         transform: scale(1.2) translateY(-5px);
     }
 
     /*IDs*/
+    /*Contact and location*/
+    /*The containers for the information boxes in the footer*/
     #info-location-container {
         display: flex;
         flex-direction: row;
