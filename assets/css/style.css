@@ -112,7 +112,7 @@ hr {
 
 .white {
     color: #eff0f3;
-    text-decoration-color: #e2e4ec !important;
+    text-decoration-color: #eff0f3 !important;
 }
 
 /*As a general rule, unrelated paragraph and headings should have 2x the margin as related ones*/
@@ -131,11 +131,12 @@ hr {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 5px;
-    text-decoration-color: var(--heading-color);
+    text-decoration-color: #eff0f3;
 }
 
 .lined-heading h2 {
     font-size: 2rem;
+    color: #eff0f3;
 }
 
 /*An overlay that darkens the color*/
@@ -206,7 +207,7 @@ nav {
 #logo-about-section{
     display: block;
     width: 90%;
-    max-width: 400px; 
+    max-width: 300px; 
     margin: auto;
 }
 
