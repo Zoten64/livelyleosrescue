@@ -9,12 +9,12 @@
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
     --paragraph-color-2: #1b1b1b;
-    --accent-color: #ff8e3c;
+    --accent-color: #bb3e1f;
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
     /*Overlays. Used to create more contrast between elements, especially images*/
     --overlay-color: #4b0000ad;
-    --darken-color: rgba(0, 0, 0, 0.5);
+    --darken-color: rgba(0, 0, 0, 0.7);
 
 
     /*Overrides default settings*/
@@ -119,10 +119,7 @@ hr {
 .white {
     color: #eff0f3;
     text-decoration-color: #eff0f3;
-}
-.white h2{
-    color: #eff0f3;
-    text-decoration-color: #eff0f3;
+    border-color: #eff0f3 !important;
 }
 
 /*As a general rule, unrelated paragraph and headings should have 2x the margin as related ones*/
@@ -388,7 +385,7 @@ div .mission-item:nth-child(3) {
     height: 100%;
     padding: 5px;
     aspect-ratio: 10/7;
-    border: var(--heading-color) solid 2px;
+    border: var(--heading-color) solid 4px;
     object-fit: cover;
 }
 
