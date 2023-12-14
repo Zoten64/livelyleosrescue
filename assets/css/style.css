@@ -44,7 +44,6 @@ section {
 }
 
 /*H1 is used exclusively for the logo text*/
-h1,
 h2 {
     color: var(--heading-color);
     font-size: 2rem;
@@ -347,7 +346,7 @@ div .mission-item:nth-child(2) {
 }
 
 div .mission-item:nth-child(3) {
-    background-image: url("../images/leopard-gecko-index-rescue.jpg");
+    background-image: url("../images/leopard_gecko_index_rescue.jpg");
     background-position: 10% 10%;
 }
 
