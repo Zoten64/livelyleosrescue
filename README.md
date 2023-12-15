@@ -11,10 +11,37 @@ The rescue is made up from volunteers who are passionate about the well being of
 
 ## Content:
 
+
+## Goals and target audience
+
+The goal of the project was to make a website that is useful for both new leopard gecko owners and long time ones as well as showing off the leopard geckos for those looking to adopt one. Another goal that I developed later was to provide a seperate page dedicated to rescue info and a form where you can contact the rescue for help/sending the gecko to them. 
+
+I wanted to make the website both simple, not overwhelming and easy on the eyes as well as accessible to those with visual impairments and those who use keyboards to navigate. The website features easy to digest info about care and encourages the user to do more research on the topic as well. 
+
+The target audience is very obvious. It's for those looking to adopt a leopard gecko or looking for a rescue to hand a leopard gecko over to. 
+
+## Design
+
+## Features
+
+## Bugs and fixes
+
 ## User stories
 
-As a new user of the page I want clear navigation to make it easy to find what I'm looking for
-As a vision impaired user I want a website with high contrast colors to make it easier to read
+- As a new user of the page I want clear navigation to make it easy to find what I'm looking for ✅
+- As a vision impaired user I want a website with high contrast colors to make it easier to read ✅
+- As a mobile user I want a website that is responsive and easy to navigate on mobile ✅
+- As a desktop user I want a website that is responsive and easy to navigate on desktop ✅
+- As a visually impaired user I want a website that can easilly be accessed with a screen reader ✅
+
+- As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source ✅
+- As someone who has found an abandoned leopard gecko I want to find information on what to do now ✅
+- As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself ✅
+- As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly ✅
+
+- As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming ✅
+- As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet ✅
+- As the owner I want my website to have easy ways to contact us for our services ✅
 
 ## Technologies and tools
 **Languages**
@@ -55,11 +82,11 @@ As a vision impaired user I want a website with high contrast colors to make it 
 
 ## Validation and testing
 <details>
-<summary>HTML Validation results</summary>
+<summary>HTML Validation results (no errors)</summary>
 <img src="documentation/html_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
 </details>
 <details>
-<summary>CSS Validation results</summary>
+<summary>CSS Validation results (no errors)</summary>
 <img src="documentation/css_validation_results.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
 
@@ -69,8 +96,22 @@ As a vision impaired user I want a website with high contrast colors to make it 
 - I have used dev tools to make sure everything is responsive and looks good on all reasonable sizes
 - I have used firefox dev tools to make sure everything looks as it should on both light and dark mode
 
+## Deployment
+
+Deployed on github pages. [Link to website](https://zoten64.github.io/livelyleosrescue/)
+The steps taken to deploy is:
+- Go to the repository
+- Find the settings tab
+- Go to pages
+- Click source and choose "Deploy from branch"
+- Choose Main as the branch and click save
+- Wait a few minutes while github compiles the page
+- Click the link at the top of the page to go to your website
+
 ## Credits
+
 **Images**
+
 - [Hero image by Firkin on openclipart](https://openclipart.org/detail/306640/desert-at-dusk) under the [Creative Commons Zero 1.0 Public Domain License](https://creativecommons.org/publicdomain/zero/1.0/). Colors modified and vectors simplified in inkscape
 
 - [404 Gecko image by Lucile Elville on Pexels](https://www.pexels.com/sv-se/foto/djur-odla-reptil-leopard-gecko-5475202/) (Unknown licence, [ToS here](https://www.pexels.com/license/))
@@ -96,3 +137,13 @@ As a vision impaired user I want a website with high contrast colors to make it 
 - [Dex gecko on the 'our geckos' page by Fungur Guy on Wikimedia Commons](https://de.wikipedia.org/wiki/Datei:Leopard_gecko_(Eublepharis_macularius),_Entomica_2.jpg) under the [Creative Commons CC0 4.0 Deed](https://creativecommons.org/publicdomain/zero/1.0/) licence
 
 - Logo by me using clip studio paint and inkscape
+
+**Content**
+
+- Social media icons from [Font Awesome](https://fontawesome.com/)
+
+- Other icons from [Google Fonts icon section](https://fonts.google.com/icons)
+
+- Font from [Google Font](https://fonts.google.com/)
+
+- Some colors taken from [Happy hues](https://www.happyhues.co/palettes/9), modified
