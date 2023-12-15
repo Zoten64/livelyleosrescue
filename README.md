@@ -168,6 +168,16 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 
 ## Bugs and fixes
 
+| Bug  | Fix |
+| ------------- | ------------- |
+| Icons not aligning with text in the navbar  | Make class to apply to those icons with a vertical align to the bottom  |
+| Logo text not aligning properly to the left  | Remove "space between" and align the navbar items to the right instead of having the whole navbar be spaced evenly |
+| Footer Divs not lining up | Remove display grid and use flex instead|
+| Trailing slash in a stylesheet reference link throwing a validation error| Remove the slash|
+| Hamburger menu not being the right color as it is black which causes issues on dark mode | Specify color as the heading color variable|
+| Icons not showing up after using find and replace | Replace the broken header and footer by copying it from another html file |
+| Headings on top of images are black on ligt mode | Modify "lined_heading" class and add "white" class to the elements|
+
 ## User stories
 
 - As a new user of the page I want clear navigation to make it easy to find what I'm looking for ✅
