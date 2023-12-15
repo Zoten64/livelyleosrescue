@@ -241,12 +241,18 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <summary>CSS Validation results (no errors)</summary>
 <img src="documentation/css_validation_results.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
+<details>
+<summary>Firefox accessibility (No errors)</summary>
+<img src="documentation/firefox_accessibility.png" alt="A screenshot of the results from using the accessibility tab on firefox dev tools showing no errors">
+</details>
 
 **Other tests**
 - I have tested the website using both firefox and chrome
 - I have tested the website on my own phone to make sure everything runs smoothly there
 - I have used dev tools to make sure everything is responsive and looks good on all reasonable sizes
 - I have used firefox dev tools to make sure everything looks as it should on both light and dark mode
+- I have used firefox dev tools to simulate various types of color blindness
+- I have used firefox to check the tabbing order for those who use keyboard to navigate
 
 ## Deployment
 
