@@ -100,7 +100,17 @@ A small sumamry of what the rescue is about as well as a redirect link
 
 **Animated list of links to jump to a specific section**
 
+The links are used to jump to a specific section of the care guide page.
+
+![Care guide animated links](documentation/care_guide_links.gif)
+
 **Sections that adapt to the content**
+
+The sections are completely adaptable to the content inside. On desktop the image has a float right property making the text wrap around it. On mobile the image will show on top of the text
+
+![Two care guide sections on the care guide page](documentation/care_guide_section_desktop.png)
+
+![One care guie section on mobile showing the image on top instead](documentation/care_guide_section_mobile.png)
 
 ### Our Leos page
 
