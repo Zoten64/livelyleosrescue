@@ -94,8 +94,10 @@
                 <hr>
             </div>
         </section>
+        <!--Contains the text in the middle and makes sure it doesn't grow bigger than a specified size-->
         <div class="text-container">
             <hr>
+            <!--The background color will be slightly altered to differentiate the sections from the background-->
             <section class="background-color-2">
                 <h3>Have you found a discarded leopard gecko?</h3>
                 <p>If you have the ability to we encourage you to care for it yoursef. if you can't, check with friends
@@ -123,6 +125,7 @@
                 <p>Never release a domesticated animal back into the wild. They will most likely not survive and may
                     even do damage to the local eco system.</p>
             </section>
+            <!--The background color will be slightly altered to differentiate the sections from the background-->
             <section class="background-color-2">
                 <h3>Are you no longer able to care for your leopard gecko?</h3>
                 <p>The most responsible thing you can do, no matter how hard it might be, is to rehome them. Ask family
@@ -130,6 +133,7 @@
                     Alternatively you can sell it to someone who knows how to care for the little critter.
                 </p>
             </section>
+            <!--Contact form -->
             <section class="contact-form">
                 <h2>Contact form</h2>
                 <hr>
@@ -145,6 +149,7 @@
                     <input type="text" id="phone-number" name="phone-number" required>
                     <hr>
                     <h3>How did you get the leopard gecko?</h3>
+                    <!--Divs used to seperate the radio buttons, adding space and customizing the buttons themselves-->
                     <div class="radio-button">
                         <input type="radio" id="found-gecko" name="rescue-type">
                         <label for="found-gecko">
@@ -167,6 +172,8 @@
                     <label for="where-found">
                         <h3>Where did you find the leopard gecko?</h3>
                     </label>
+                    <!--Text area with a maximum amount of characters of 1000 to make sure someone 
+                        doesn't spam it in an attempt to crash the database (that doesn't exist)-->
                     <textarea name="where-found" id="where-found" maxlength="1000"></textarea>
                     <hr>
                     <label for="other-info">
@@ -176,8 +183,8 @@
                     <input type="submit" value="Submit">
                 </form>
                 <hr>
-                <p class="center-text">Alternatively you can call us at <a href="tel:+441635286716">+441635286716</a>
-                </p>
+                <!--Clickable phone number to make it easy to call-->
+                <p class="center-text">Alternatively you can call us at <a href="tel:+441635286716">+441635286716</a></p>
             </section>
         </div>
     </main>
