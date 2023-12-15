@@ -8,7 +8,6 @@
     --background-color-2: #e9d6c9;
     --heading-color: #0d0d0d;
     --paragraph-color: #2a2a2a;
-    --paragraph-color-2: #1b1b1b;
     --accent-color: #bb3e1f;
     --border-color: #2a2a2ae8;
     --shadow-color: #2a2a2a15;
@@ -972,7 +971,6 @@ the color variables declared above. Accent stays the same*/
         --background-color-2: #1a1a1f;
         --heading-color: #fffffe;
         --paragraph-color: #94a1b2;
-        --paragraph-color-2: #e6eefa;
         --border-color: #0c0c0ce8;
         --shadow-color: #07070715;
     }
