@@ -651,6 +651,10 @@ input[type=radio]:checked {
     display: block;
 }
 
+.contact-form a{
+    color: var(--paragraph-color);
+}
+
 /*Gives some space between the button and label elements. Used on divs containing the radio button and it's labels*/
 .radio-button {
     margin-top: 1rem;

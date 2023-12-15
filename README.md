@@ -273,6 +273,7 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <summary>HTML about us Validation results (no errors)</summary>
 <img src="documentation/html_about_us_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
 </details>
+<br>
 
 **CSS**
 
@@ -284,6 +285,7 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <summary>Style.css Validation results (no errors)</summary>
 <img src="documentation/css_style_validation.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
+<br>
 
 **Wave accessibility**
 
@@ -307,10 +309,31 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <summary>Wave accessibility validation about us page</summary>
 <img src="documentation/wave_validation_about_us.png" alt="A screenshot of the results from using the wave validator showing no errors">
 </details>
+<br>
 
 **Lighthouse performance**
 
-
+<details>
+<summary>Lighthouse test of the "home" page</summary>
+<img src="documentation/lighthouse_home.png" alt="A screenshot of the results from using lighthouse">
+</details>
+<details>
+<summary>Lighthouse test of the "care guide" page</summary>
+<img src="documentation/lighthouse_guide.png" alt="A screenshot of the results from using lighthouse">
+</details>
+<details>
+<summary>Lighthouse test of the "our leos" page</summary>
+<img src="documentation/lighthouse_our_leos.png" alt="A screenshot of the results from using lighthouse">
+</details>
+<details>
+<summary>Lighthouse test of the "rescue" page</summary>
+<img src="documentation/lighthouse_rescue.png" alt="A screenshot of the results from using lighthouse">
+</details>
+<details>
+<summary>Lighthouse test of the "about us" page</summary>
+<img src="documentation/lighthouse_about_us.png" alt="A screenshot of the results from using lighthouse">
+</details>
+<br>
 
 **Other tests**
 - I have tested the website using both firefox and chrome
