@@ -116,7 +116,17 @@ The sections are completely adaptable to the content inside. On desktop the imag
 
 **Sections with information on a specific leopard gecko**
 
+The section features an image, 4 labels and a paragraph. The labels display quick information about the gecko and is fully responsive
+
+![Section of a leopard gecko on the 'our leos' page on desktop](documentation/our_leos_section_desktop.png)
+
+![Section of a leopard gecko on the 'our leos' page on mobile](documentation/our_leos_section_mobile.png)
+
 **Contact Form**
+
+The 'Our leos' page has a contact form that redirects to a confirmation page. 
+
+![Contact form on the our leos page](documentation/our_leos_contact.png)
 
 ### Rescue page 
 
@@ -127,6 +137,12 @@ The sections are completely adaptable to the content inside. On desktop the imag
 ### About us page
 
 **Information about the rescue**
+
+### Other
+
+**404 page**
+
+**Form confirmation page**
 
 ## Bugs and fixes
 
