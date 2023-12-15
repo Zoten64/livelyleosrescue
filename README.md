@@ -5,11 +5,11 @@ Livelyleos is a rescue dedicated to leopard geckos. Not only do they rehome thes
 
 The rescue is made up from volunteers who are passionate about the well being of these geckos, including veterinarians and long time owners.
 
-<img src="documentation/livelyleosthumbnail.png" alt="A collection of images of different screenshots">
+![A collection of images of different screenshots](documentation/livelyleos_thumbnail.png)
 
 ## [Link to website](https://zoten64.github.io/livelyleosrescue/)
 
-## Content:
+## Table of Contents:
 
 
 ## Goals and target audience
@@ -22,9 +22,71 @@ The target audience is very obvious. It's for those looking to adopt a leopard g
 
 ## Design
 
+For the design I wanted to implement both a light mode and a dark mode for the site. I visited [Happy Hues](https://www.happyhues.co/) for a color pallette. What I did was I chose [this pallette](https://www.happyhues.co/palettes/9) and modified it slightly. I removed the pink color and kept the rest. For dark mode i took the colors from [this pallette](https://www.happyhues.co/palettes/13), but removed the accent colors to keep the same orange as light mode. I ended up changing the accent color from #ff8e3c to #bb3e1f (Current color that you see in the pallette) to make it contrast more with the text for better visibility.
 
+**Light mode color pallette:**
+![Light mode color pallette](documentation/color_pallette_light.png)
+**Dark mode color pallette**
+![Dark mode color pallette](documentation/color_pallette_dark.png)
+
+For the design and layout I took inspiration from [this youtube video](https://www.youtube.com/watch?v=g0db5kA4BfQ&list=PL1abJ21nmMp82I9AUCc0ZKEe5NVgNyWGt&index=1&t=177s).
+
+The font used on the whole page was [Roboto from google fonts.](https://fonts.google.com/specimen/Roboto)
 
 ## Features
+
+### Sitewide
+
+**Lightmode/Darkmode**
+
+The site has a light and dark mode depending on the users preferences set in their settings
+![Gif showcase of light and dark mode](documentation/light_dark_mode.gif)
+
+**Fully responsive navbar**
+The navbar is fully responsive. It scales with the site and when there's too little space it turns into a hamburger menu
+![Navbar on desktop](documentation/navbar_desktop.png)
+
+![Navbar on tablet](documentation/navbar_tablet.png)
+
+![Navbar on mobile](documentation/navbar_mobile.png)
+
+**Hover effects on navitems**
+
+![Hover effect on navbar items](documentation/hover_navbar.gif)
+
+**Fully responsive footer with social media links, contact info and location**
+
+**Social media hover effects**
+
+### Home page
+
+**Hero that states the purpose of the website**
+
+**Redirect buttons of the 3 most important features**
+
+**An about us summary**
+
+### Care Guide page
+
+**Animated list of links to jump to a specific section**
+
+**Sections that adapt to the content**
+
+### Our Leos page
+
+**Sections with information on a specific leopard gecko**
+
+**Contact Form**
+
+### Rescue page 
+
+**Text container with information**
+
+**Contact Form with custom radio buttons**
+
+### About us page
+
+**Information about the rescue**
 
 ## Bugs and fixes
 
