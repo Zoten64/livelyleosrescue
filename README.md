@@ -11,6 +11,23 @@ The rescue is made up from volunteers who are passionate about the well being of
 
 ## Table of Contents:
 
+* [Goals and target audience](#goals-and-target-audience)
+* [Design](#design)
+* [Features](#features)
+    * [Sitewide](#sitewide)
+    * [Home page](#home-page)
+    * [Care Guide Page](#care-guide-page)
+    * [Our Leos Page](#our-leos-page)
+    * [Rescue page](#rescue-page)
+    * [About us page](#about-us-page)
+    * [Other](#other)
+* [Bugs and fixes](#bugs-and-fixes)
+* [User stories](#user-stories)
+* [Technologies and tools](#technologies-and-tools)
+* [Wireframes](#wireframes)
+* [Validation and testing](#validation-and-testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 ## Goals and target audience
 
