@@ -336,12 +336,20 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <br>
 
 **Other tests**
+<br>
 - I have tested the website using both firefox and chrome
 - I have tested the website on my own phone to make sure everything runs smoothly there
 - I have used dev tools to make sure everything is responsive and looks good on all reasonable sizes
 - I have used firefox dev tools to make sure everything looks as it should on both light and dark mode
 - I have used firefox dev tools to simulate various types of color blindness
 - I have used firefox to check the tabbing order for those who use keyboard to navigate
+
+**Testing Devices**
+The website has been tested on the following devices:
+- Custom built desktop pc
+- Nothing Phone 2
+- Microsoft surface pro
+- HP probook
 
 ## Deployment
 

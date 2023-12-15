@@ -884,7 +884,7 @@ footer hr {
         transition-timing-function: ease-in-out;
     }
 
-    .nav-item p {
+    .nav-item h3 {
         color: var(--heading-color);
         font-size: 1.5rem;
         font-weight: bolder;
@@ -895,7 +895,7 @@ footer hr {
         transition: all 0.2s;
     }
 
-    .nav-item:hover p,
+    .nav-item:hover h3,
     #active:hover {
         /*Some fancy hover effect transition*/
         text-decoration: underline;
@@ -918,7 +918,7 @@ footer hr {
         border: none;
     }
 
-    #menu li p {
+    #menu li h3 {
         margin-right: 3px;
     }
 
