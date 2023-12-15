@@ -251,6 +251,8 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 </details>
 
 ## Validation and testing
+**HTML**
+
 <details>
 <summary>HTML index Validation results (no errors)</summary>
 <img src="documentation/html_index_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
@@ -272,6 +274,8 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <img src="documentation/html_about_us_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
 </details>
 
+**CSS**
+
 <details>
 <summary>CSS URL validation results (no errors)</summary>
 <img src="documentation/css_validation_results.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
@@ -280,7 +284,32 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <summary>Style.css Validation results (no errors)</summary>
 <img src="documentation/css_style_validation.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
+
+**Wave accessibility**
+
 <details>
+<summary>Wave accessibility validation home page</summary>
+<img src="documentation/wave_validation_home.png" alt="A screenshot of the results from using the wave validator showing no errors">
+</details>
+<details>
+<summary>Wave accessibility validation guide page</summary>
+<img src="documentation/wave_validation_guide.png" alt="A screenshot of the results from using the wave validator showing no errors">
+</details>
+<details>
+<summary>Wave accessibility validation our leos page</summary>
+<img src="documentation/wave_validation_our_leos.png" alt="A screenshot of the results from using the wave validator showing no errors">
+</details>
+<details>
+<summary>Wave accessibility validation rescue page</summary>
+<img src="documentation/wave_validation_rescue.png" alt="A screenshot of the results from using the wave validator showing no errors">
+</details>
+<details>
+<summary>Wave accessibility validation about us page</summary>
+<img src="documentation/wave_validation_about_us.png" alt="A screenshot of the results from using the wave validator showing no errors">
+</details>
+
+**Lighthouse performance**
+
 
 
 **Other tests**

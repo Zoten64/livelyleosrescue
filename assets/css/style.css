@@ -336,17 +336,17 @@ main {
 
 /*Sets a different background for each mission button. Some have an altered background position*/
 div .mission-item:nth-child(1) {
-    background-image: url("../images/leopard_gecko_index_care.jpg");
+    background-image: url("../images/leopard_gecko_index_care.webp");
 }
 
 div .mission-item:nth-child(2) {
-    background-image: url("../images/leopard_gecko_index_adopt.jpg");
+    background-image: url("../images/leopard_gecko_index_adopt.webp");
     background-position: 30%;
 
 }
 
 div .mission-item:nth-child(3) {
-    background-image: url("../images/leopard_gecko_index_rescue.jpg");
+    background-image: url("../images/leopard_gecko_index_rescue.webp");
     background-position: 10% 10%;
 }
 
