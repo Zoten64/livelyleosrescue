@@ -156,7 +156,15 @@ The logo is placed at the bottom to strengthen the fact that the about page is r
 
 **404 page**
 
+The website has a 404 page implemented. Here is a button to take you back to the home page. It works on github pages.
+
+![The 404 page](documentation/404_page.png)
+
 **Form confirmation page**
+
+Whenever a form is submitted the page will redirect here. Here is a button to take you back to the home page.
+
+![Form confirmation page](documentation/form_confirm.png)
 
 ## Bugs and fixes
 
