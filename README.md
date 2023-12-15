@@ -344,7 +344,20 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 - I have used firefox dev tools to simulate various types of color blindness
 - I have used firefox to check the tabbing order for those who use keyboard to navigate
 
+<br>
+
+**Browsers tested**
+
+- Mozilla Firefox
+- Google Chrome
+- Microsoft Edge
+
+In theory the website should work across all chromium based browsers
+
+<br>
+
 **Testing Devices**
+
 The website has been tested on the following devices:
 - Custom built desktop pc
 - Nothing Phone 2
