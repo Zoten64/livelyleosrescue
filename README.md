@@ -43,6 +43,7 @@ The site has a light and dark mode depending on the users preferences set in the
 ![Gif showcase of light and dark mode](documentation/light_dark_mode.gif)
 
 **Fully responsive navbar**
+
 The navbar is fully responsive. It scales with the site and when there's too little space it turns into a hamburger menu
 ![Navbar on desktop](documentation/navbar_desktop.png)
 
@@ -52,19 +53,48 @@ The navbar is fully responsive. It scales with the site and when there's too lit
 
 **Hover effects on navitems**
 
+The navigation items have a fancy little hover effect
+
 ![Hover effect on navbar items](documentation/hover_navbar.gif)
 
 **Fully responsive footer with social media links, contact info and location**
+The footer is fully responsive. On Desktop the info will show as two columns while on mobile it will show as two rows
+
+![Footer on desktop](documentation/footer_desktop.png)
+
+![Footer on mobile](documentation/footer_mobile.png)
 
 **Social media hover effects**
+
+Simple hover effect on the social media links
+
+![Hover effect on social media links](documentation/hover_socials.gif)
 
 ### Home page
 
 **Hero that states the purpose of the website**
 
+It is immediately clear what the site is about. The hero also links to another page where you can read more
+
+![Screenshot of the hero](documentation/hero.png)
+
 **Redirect buttons of the 3 most important features**
 
+The three most important features are displayed on the home page to make it even clearer what the site offers
+
+![Screenshot of the 3 most important features on desktop](documentation/3_features_dekstop.png)
+
+![Screenshot of the 3 most important features on tablet](documentation/3_features_tablet.png)
+
+![Screenshot of the 3 most important features on mobile](documentation/3_features_mobile.png)
+
 **An about us summary**
+
+A small sumamry of what the rescue is about as well as a redirect link
+
+![About us summary on desktop](documentation/about_us_summary_desktop.png)
+
+![About us summary on mobile](documentation/about_us_summary_mobile.png)
 
 ### Care Guide page
 
