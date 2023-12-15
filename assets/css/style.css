@@ -866,7 +866,6 @@ footer hr {
 
     /*Classes*/
     .nav-item {
-
         /*Transition settings*/
         text-underline-offset: 0;
         transition: all 0.2s;
@@ -881,15 +880,18 @@ footer hr {
         transition-timing-function: ease-in-out;
     }
 
-    .nav-item h3 {
+    .nav-item p {
+        color: var(--heading-color);
+        font-size: 1.5rem;
+        font-weight: bolder;
         /*Some fancy hover effect transition*/
         text-decoration: underline;
-        text-decoration-color: #0d0d0d00;
+        text-decoration-color: #0d0d0d00; /*No color*/
         text-decoration-thickness: 3px;
         transition: all 0.2s;
     }
 
-    .nav-item:hover h3,
+    .nav-item:hover p,
     #active:hover {
         /*Some fancy hover effect transition*/
         text-decoration: underline;
@@ -912,7 +914,7 @@ footer hr {
         border: none;
     }
 
-    #menu li h3 {
+    #menu li p {
         margin-right: 3px;
     }
 

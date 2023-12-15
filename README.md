@@ -13,6 +13,7 @@ The rescue is made up from volunteers who are passionate about the well being of
 
 * [Goals and target audience](#goals-and-target-audience)
 * [Design](#design)
+* [User stories](#user-stories)
 * [Features](#features)
     * [Sitewide](#sitewide)
     * [Home page](#home-page)
@@ -22,7 +23,6 @@ The rescue is made up from volunteers who are passionate about the well being of
     * [About us page](#about-us-page)
     * [Other](#other)
 * [Bugs and fixes](#bugs-and-fixes)
-* [User stories](#user-stories)
 * [Technologies and tools](#technologies-and-tools)
 * [Wireframes](#wireframes)
 * [Validation and testing](#validation-and-testing)
@@ -49,6 +49,23 @@ For the design I wanted to implement both a light mode and a dark mode for the s
 For the design and layout I took inspiration from [this youtube video](https://www.youtube.com/watch?v=g0db5kA4BfQ&list=PL1abJ21nmMp82I9AUCc0ZKEe5NVgNyWGt&index=1&t=177s).
 
 The font used on the whole page was [Roboto from google fonts.](https://fonts.google.com/specimen/Roboto)
+
+## User stories
+
+1. As a new user of the page I want clear navigation to make it easy to find what I'm looking for ✅
+2.  As a vision impaired user I want a website with high contrast colors to make it easier to read ✅
+3.  As a mobile user I want a website that is responsive and easy to navigate on mobile ✅
+4.  As a desktop user I want a website that is responsive and easy to navigate on desktop ✅
+5.  As a visually impaired user I want a website that can easilly be accessed with a screen reader ✅
+
+6.  As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source ✅
+7.  As someone who has found an abandoned leopard gecko I want to find information on what to do now ✅
+8.  As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself ✅
+9.  As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly ✅
+
+10.  As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming ✅
+11.  As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet ✅
+12.  As the owner I want my website to have easy ways to contact us for our services ✅
 
 ## Features
 
@@ -195,22 +212,6 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 | Icons not showing up after using find and replace | Replace the broken header and footer by copying it from another html file |
 | Headings on top of images are black on ligt mode | Modify "lined_heading" class and add "white" class to the elements|
 
-## User stories
-
-- As a new user of the page I want clear navigation to make it easy to find what I'm looking for ✅
-- As a vision impaired user I want a website with high contrast colors to make it easier to read ✅
-- As a mobile user I want a website that is responsive and easy to navigate on mobile ✅
-- As a desktop user I want a website that is responsive and easy to navigate on desktop ✅
-- As a visually impaired user I want a website that can easilly be accessed with a screen reader ✅
-
-- As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source ✅
-- As someone who has found an abandoned leopard gecko I want to find information on what to do now ✅
-- As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself ✅
-- As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly ✅
-
-- As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming ✅
-- As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet ✅
-- As the owner I want my website to have easy ways to contact us for our services ✅
 
 ## Technologies and tools
 **Languages**
@@ -259,16 +260,28 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 <img src="documentation/html_guide_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
 </details>
 <details>
+<summary>HTML our leos Validation results (no errors)</summary>
+<img src="documentation/html_our_leos_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
+</details>
+<details>
+<summary>HTML rescue Validation results (no errors)</summary>
+<img src="documentation/html_rescue_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
+</details>
+<details>
+<summary>HTML about us Validation results (no errors)</summary>
+<img src="documentation/html_about_us_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
+</details>
+
+<details>
 <summary>CSS URL validation results (no errors)</summary>
 <img src="documentation/css_validation_results.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
+<details>
 <summary>Style.css Validation results (no errors)</summary>
 <img src="documentation/css_style_validation.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
 <details>
-<summary>Firefox accessibility (No errors)</summary>
-<img src="documentation/firefox_accessibility.png" alt="A screenshot of the results from using the accessibility tab on firefox dev tools showing no errors">
-</details>
+
 
 **Other tests**
 - I have tested the website using both firefox and chrome
