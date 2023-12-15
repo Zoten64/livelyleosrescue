@@ -697,6 +697,37 @@ input[type=radio]:checked {
     transform: scale(1.1);
 }
 
+/*Form Confirm styles*/
+
+#section-form-confirm {
+    margin: 50px;
+}
+
+#text-form-confirm {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
+}
+
+/*The button that takes you back to the home page*/
+#button-form-confirm {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.2em;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    transition: all 0.3s ease-out;
+}
+
+#button-form-confirm:hover {
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
+}
+
 
 /*Footer*/
 /*Generic elements*/
