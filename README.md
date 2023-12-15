@@ -22,7 +22,7 @@ The target audience is very obvious. It's for those looking to adopt a leopard g
 
 ## Design
 
-For the design I wanted to implement both a light mode and a dark mode for the site. I visited [Happy Hues](https://www.happyhues.co/) for a color pallette. What I did was I chose [this pallette](https://www.happyhues.co/palettes/9) and modified it slightly. I removed the pink color and kept the rest. For dark mode i took the colors from [this pallette](https://www.happyhues.co/palettes/13), but removed the accent colors to keep the same orange as light mode. I ended up changing the accent color from #ff8e3c to #bb3e1f (Current color that you see in the pallette) to make it contrast more with the text for better visibility.
+For the design I wanted to implement both a light mode and a dark mode for the site. I also wanted the site to have an orangeish theme as leopard geckos are native to desert areas. I visited [Happy Hues](https://www.happyhues.co/) for a color pallette. What I did was I chose [this pallette](https://www.happyhues.co/palettes/9) and modified it slightly. I removed the pink color and kept the rest. For dark mode i took the colors from [this pallette](https://www.happyhues.co/palettes/13), but removed the accent colors to keep the same orange as light mode. I ended up changing the accent color from #ff8e3c to #bb3e1f (Current color that you see in the pallette) to make it contrast more with the text for better visibility.
 
 **Light mode color pallette:**
 ![Light mode color pallette](documentation/color_pallette_light.png)
@@ -132,11 +132,25 @@ The 'Our leos' page has a contact form that redirects to a confirmation page.
 
 **Text container with information**
 
+The page has two text containers with information on what to do if you've found an abandoned leopard gecko/can't care for one anymore
+
+![Text container with information on desktop](documentation/rescue_text_desktop.png)
+
+![Text container with information on mobile](documentation/rescue_text_mobile.png)
+
 **Contact Form with custom radio buttons**
+
+The contact form has custom radio buttons with a small animation as well
+
+![Custom radio buttons on the contact form](documentation/rescue_contact_form_buttons.gif)
 
 ### About us page
 
 **Information about the rescue**
+
+The logo is placed at the bottom to strengthen the fact that the about page is related to the lively leos rescue
+
+![Screenshot of the about us page](documentation/about_us_page.png)
 
 ### Other
 
