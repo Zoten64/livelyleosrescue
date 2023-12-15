@@ -251,12 +251,19 @@ Whenever a form is submitted the page will redirect here. Here is a button to ta
 
 ## Validation and testing
 <details>
-<summary>HTML Validation results (no errors)</summary>
-<img src="documentation/html_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
+<summary>HTML index Validation results (no errors)</summary>
+<img src="documentation/html_index_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
 </details>
 <details>
-<summary>CSS Validation results (no errors)</summary>
+<summary>HTML care guide Validation results (no errors)</summary>
+<img src="documentation/html_guide_validation_results.png" alt="A screenshot of the results from using the w3c html validator showing no errors">
+</details>
+<details>
+<summary>CSS URL validation results (no errors)</summary>
 <img src="documentation/css_validation_results.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
+</details>
+<summary>Style.css Validation results (no errors)</summary>
+<img src="documentation/css_style_validation.png" alt="A screenshot of the results from using the jigsaw css validator showing no errors">
 </details>
 <details>
 <summary>Firefox accessibility (No errors)</summary>

@@ -657,9 +657,16 @@ input[type=radio]:checked {
 }
 
 /*Makes the label show next to the button*/
-.radio-button h4 {
-    font-size: 1.3em;
-    display: inline;
+.radio-button label {
+    display: inline !important;
+    font-size: 16px !important;
+    font-weight: 400;
+}
+
+.contact-form label{
+    display: block;
+    color: var(--heading-color);
+    font-size: 1.5rem;
 }
 
 /*404 page styles*/
