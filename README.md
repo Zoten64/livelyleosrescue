@@ -52,20 +52,24 @@ The font used on the whole page was [Roboto from google fonts.](https://fonts.go
 
 ## User stories
 
-1. As a new user of the page I want clear navigation to make it easy to find what I'm looking for ✅
-2.  As a vision impaired user I want a website with high contrast colors to make it easier to read ✅
-3.  As a mobile user I want a website that is responsive and easy to navigate on mobile ✅
-4.  As a desktop user I want a website that is responsive and easy to navigate on desktop ✅
-5.  As a visually impaired user I want a website that can easilly be accessed with a screen reader ✅
+1. As a new user of the page I want clear navigation to make it easy to find what I'm looking for 
+2. As a vision impaired user I want a website with high contrast colors to make it easier to read 
+3. As a mobile user I want a website that is responsive and easy to navigate on mobile 
+4. As a desktop user I want a website that is responsive and easy to navigate on desktop 
+5. As a visually impaired user I want a website that can easilly be accessed with a screen reader 
+6. As a light sensitive user I want a dark mode to be easier on the eyes
 
-6.  As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source ✅
-7.  As someone who has found an abandoned leopard gecko I want to find information on what to do now ✅
-8.  As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself ✅
-9.  As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly ✅
+7. As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source with easy contact options
+8. As someone who wants to know how to care about a leopard gecko I want a site where I can find easy guides
+9. As someone who has found an abandoned leopard gecko I want to find information on what to do now 
+10. As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself 
+11. As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly 
 
-10.  As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming ✅
-11.  As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet ✅
-12.  As the owner I want my website to have easy ways to contact us for our services ✅
+12. As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming 
+13. As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet 
+14. As the owner I want my website to have easy ways to contact us for our services 
+15. As the owner I want my website to immediately be clear what and who we are to users
+16. As the owner I want a page that describes out purpose and mission
 
 ## Features
 
@@ -73,8 +77,10 @@ The font used on the whole page was [Roboto from google fonts.](https://fonts.go
 
 **Lightmode/Darkmode**
 
-The site has a light and dark mode depending on the users preferences set in their settings
+The site has a light and dark mode depending on the users preferences set in their settings. Both modes have high contrast colors
 ![Gif showcase of light and dark mode](documentation/light_dark_mode.gif)
+
+User stories covered: 6, 2
 
 **Fully responsive navbar**
 
@@ -85,11 +91,15 @@ The navbar is fully responsive. It scales with the site and when there's too lit
 
 ![Navbar on mobile](documentation/navbar_mobile.png)
 
+User stories covered: 1, 3, 4
+
 **Hover effects on navitems**
 
 The navigation items have a fancy little hover effect
 
 ![Hover effect on navbar items](documentation/hover_navbar.gif)
+
+User stories covered: none
 
 **Fully responsive footer with social media links, contact info and location**
 The footer is fully responsive. On Desktop the info will show as two columns while on mobile it will show as two rows
@@ -98,11 +108,15 @@ The footer is fully responsive. On Desktop the info will show as two columns whi
 
 ![Footer on mobile](documentation/footer_mobile.png)
 
+User stories covered: 3, 4, 14
+
 **Social media hover effects**
 
 Simple hover effect on the social media links
 
 ![Hover effect on social media links](documentation/hover_socials.gif)
+
+User stories covered: none
 
 ### Home page
 
@@ -111,6 +125,8 @@ Simple hover effect on the social media links
 It is immediately clear what the site is about. The hero also links to another page where you can read more
 
 ![Screenshot of the hero](documentation/hero.png)
+
+User stories covered: 15
 
 **Redirect buttons of the 3 most important features**
 
@@ -122,6 +138,8 @@ The three most important features are displayed on the home page to make it even
 
 ![Screenshot of the 3 most important features on mobile](documentation/3_features_mobile.png)
 
+User stories covered: 1, 15
+
 **An about us summary**
 
 A small sumamry of what the rescue is about as well as a redirect link
@@ -129,6 +147,8 @@ A small sumamry of what the rescue is about as well as a redirect link
 ![About us summary on desktop](documentation/about_us_summary_desktop.png)
 
 ![About us summary on mobile](documentation/about_us_summary_mobile.png)
+
+User stories covered: 15
 
 ### Care Guide page
 
@@ -138,6 +158,8 @@ The links are used to jump to a specific section of the care guide page.
 
 ![Care guide animated links](documentation/care_guide_links.gif)
 
+User stories covered: 1
+
 **Sections that adapt to the content**
 
 The sections are completely adaptable to the content inside. On desktop the image has a float right property making the text wrap around it. On mobile the image will show on top of the text
@@ -145,6 +167,8 @@ The sections are completely adaptable to the content inside. On desktop the imag
 ![Two care guide sections on the care guide page](documentation/care_guide_section_desktop.png)
 
 ![One care guie section on mobile showing the image on top instead](documentation/care_guide_section_mobile.png)
+
+User stories covered: 8
 
 ### Our Leos page
 
@@ -156,11 +180,15 @@ The section features an image, 4 labels and a paragraph. The labels display quic
 
 ![Section of a leopard gecko on the 'our leos' page on mobile](documentation/our_leos_section_mobile.png)
 
+User stories covered: 7
+
 **Contact Form**
 
 The 'Our leos' page has a contact form that redirects to a confirmation page. 
 
 ![Contact form on the our leos page](documentation/our_leos_contact.png)
+
+User stories covered: 7, 14
 
 ### Rescue page 
 
@@ -172,11 +200,15 @@ The page has two text containers with information on what to do if you've found 
 
 ![Text container with information on mobile](documentation/rescue_text_mobile.png)
 
+User stories covered: 9
+
 **Contact Form with custom radio buttons**
 
 The contact form has custom radio buttons with a small animation as well
 
 ![Custom radio buttons on the contact form](documentation/rescue_contact_form_buttons.gif)
+
+User stories covered: 10, 11
 
 ### About us page
 
@@ -185,6 +217,8 @@ The contact form has custom radio buttons with a small animation as well
 The logo is placed at the bottom to strengthen the fact that the about page is related to the lively leos rescue
 
 ![Screenshot of the about us page](documentation/about_us_page.png)
+
+User stories covered: 16
 
 ### Other
 
@@ -364,7 +398,228 @@ The website has been tested on the following devices:
 - Microsoft surface pro
 - HP probook
 
+<br>
+
+**Testing user stories**
+
+1. As a new user of the page I want clear navigation to make it easy to find what I'm looking for 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A navigation bar | On mobile click the hamburger menu to bring up the navigation menu, on desktop navigate to the right corner | A working navigation bar | Works as expected |
+| Links in the guide section | Click on any of the links in the first section on the care guide page to get to a specific section | Links will take them to the section | Works as expected|
+
+<details>
+
+**Navbar**
+
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_1.1_mobile.png" alt="A screenshot of how to access the nav bar on mobile">
+<img src="documentation/user_stories_1.1_desktop.png" alt="A screenshot of how to access the nav bar on desktop">
+
+<br>
+
+**Care guide links**
+
+<img src="documentation/user_stories_1.2.png" alt="A screenshot of the links on the care guide page">
+</details>
+
+<br>
+
+2. As a vision impaired user I want a website with high contrast colors to make it easier to read 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A high contrast color pallette | Browse the site | An easy to read website for various color blindnesses and visual impairments | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_2_contrast_dark.png" alt="A screenshot showing the contrasting colors">
+<img src="documentation/user_stories_2_contrast_light.png" alt="A screenshot showing the contrasting colors">
+</details>
+
+<br>
+
+3. As a mobile user I want a website that is responsive and easy to navigate on mobile 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| Responsive mobile design | Browse the site on mobile | A responsive site that looks good on mobile devices | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_3.png" alt="A screenshot showing the pages on mobile">
+</details>
+
+4. As a desktop user I want a website that is responsive and easy to navigate on desktop 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| Responsive desktop design | Browse the site on desktop | A responsive site that looks good on desktop devices | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_4.png" alt="A screenshot showing the pages on mobile">
+</details>
+
+<br>
+
+5. As a visually impaired user I want a website that can easilly be accessed with a screen reader 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A website that follows semantic guidelines and uses alt text | Browse the site with a screen reader | An accessible website | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_5.png" alt="A screenshot showing the tabbing order of the home page">
+</details>
+
+<br>
+
+6. As a light sensitive user I want a dark mode to be easier on the eyes
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A website that automatically enabled dark mode on devices with such activated in their settings | Have dark mode activated in device settings | A website with both light and dark mode depending on the device | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_6.png" alt="A screenshot showing the dark mode of the page">
+<img src="documentation/user_stories_6_enabling_dark_mode.png.png" alt="A screenshot showing windows settings and how to set it to dark mode">
+</details>
+
+<br>
+
+7. As an enthusiast looking for a new pet I want a website where I can adopt a leopard gecko from a responsible source with easy contact options
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page where you can view the geckos up for adoption as well as a contact form | From the home page, navigate to "our leos". For contact scroll down to the form | A page with geckos up for adoption and a form |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_7.png" alt="A screenshot showing how to get to the 'our leos' page and the contact form">
+</details>
+
+<br>
+
+8. As someone who wants to know how to care about a leopard gecko I want a site where I can find easy guides
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page with guides of how to care for a leopard gecko | From the home page, navigate to "Care guide" | To get to a page with care guides | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_8.png" alt="A screenshot showing how to get to the 'care guide' page">
+</details>
+
+<br>
+
+9. As someone who has found an abandoned leopard gecko I want to find information on what to do now 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page with some quick info on what to do | From the home page, navigate to "Rescue" | To get to a page with info on what to do if you find an abandoned leopard gecko | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_9.png" alt="A screenshot showing how to get to the 'rescue' page">
+</details>
+
+<br>
+
+10. As someone who has found an abandoned leopard gecko I want to be able to easily contact a rescue as I do not have the ability/time to care for it myself 
+
+    And
+
+11. As someone who can no longer care for my leopard gecko I want a way to easily contact a place where I can be sure it will be taken care of properly 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page with a contact form | From the home page, navigate to "Rescue" | To get to a page with a contact form | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_10+11.png" alt="A screenshot showing how to get to the 'rescue' page contact form">
+</details>
+
+<br>
+
+12. As the owner I want my website that displays all the geckos for adoption to heighten the chances of a rehoming 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page where you can view the geckos up for adoption | From the home page, navigate to "our leos". | A page with geckos up for adoption and a form |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_12.png" alt="A screenshot showing how to get to the 'our leos' page">
+</details>
+
+<br>
+
+13. As the owner I want my website to have easy to understand care guides for everyone to reduce the amount of people mistreating their pet 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| A page with guides of how to care for a leopard gecko | From the home page, navigate to "Care guide" | To get to a page with care guides | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_8.png" alt="A screenshot showing how to get to the 'care guide' page">
+</details>
+
+<br>
+
+14. As the owner I want my website to have easy ways to contact us for our services 
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| Contact information in the footer | From any page, scroll all the way down | A footer with contact information | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_14.png" alt="A screenshot showing the footer and how to get to it">
+</details>
+
+<br>
+
+15. As the owner I want my website to immediately be clear what and who we are to users
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| Short text in the hero section | Navigate to the home page | A hero image with text | Works as expected |
+| A section summarizing the about section | From the home page, scroll down | A section with a short expalaination | works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_15.1.png" alt="A screenshot showing the hero image">
+
+<br>
+
+<img src="documentation/user_stories_15.2.png" alt="A screenshot showing the about summary and how to get to it">
+</details>
+
+<br>
+
+16. As the owner I want a page that describes out purpose and mission
+
+| Feature  | Action | Expected results | Actual results |
+| ------------- | ------------- | ------------- | ------------- |
+| An about page | Navigate to the "About us" page | To arrive at an about us page | Works as expected |
+
+<details>
+<summary>Screenshots</summary>
+<img src="documentation/user_stories_16.png" alt="A screenshot showing the hero image">
+</details>
+
+<br>
+
 ## Deployment
+
+**Deploying and accessing the website on github pages**
 
 Deployed on github pages. [Link to website](https://zoten64.github.io/livelyleosrescue/)
 The steps taken to deploy is:
@@ -375,6 +630,25 @@ The steps taken to deploy is:
 - Choose Main as the branch and click save
 - Wait a few minutes while github compiles the page
 - Click the link at the top of the page to go to your website
+
+**How to fork the project**
+
+- Navigate to the github repository (You're probably here already)
+- In the right corner click fork and choose a name
+
+**How to clone the project**
+
+Prerequisities:
+
+- Have git downloaded and configured
+
+steps:
+
+- Go to the repository (You're probably here already)
+- Click the code button
+- Copy the url
+- Open git and change the directory to the parent directory that you want the project to clone to
+- Write "git clone [the link you just copied]", in this case "git clone https://github.com/Zoten64/livelyleosrescue.git"
 
 ## Credits
 
