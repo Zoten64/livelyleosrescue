@@ -434,6 +434,9 @@ The website has been tested on the following devices:
 
 <details>
 <summary>Screenshots</summary>
+
+The screenshots shows the high contrast on both dark and light mode.
+
 <img src="documentation/user_stories_2_contrast_dark.png" alt="A screenshot showing the contrasting colors">
 <img src="documentation/user_stories_2_contrast_light.png" alt="A screenshot showing the contrasting colors">
 </details>
@@ -472,7 +475,14 @@ The website has been tested on the following devices:
 
 <details>
 <summary>Screenshots</summary>
+
+The tabbing order shows that it will tab through the items in expected order
+
 <img src="documentation/user_stories_5.png" alt="A screenshot showing the tabbing order of the home page">
+
+Wave validation is once again included here. For a whole page check, [check the testing and validation section](#validation-and-testing)
+
+<img src="documentation/wave_validation_home.png" alt="A screenshot showing the tabbing order of the home page">
 </details>
 
 <br>
@@ -486,7 +496,10 @@ The website has been tested on the following devices:
 <details>
 <summary>Screenshots</summary>
 <img src="documentation/user_stories_6.png" alt="A screenshot showing the dark mode of the page">
-<img src="documentation/user_stories_6_enabling_dark_mode.png.png" alt="A screenshot showing windows settings and how to set it to dark mode">
+
+How to enable dark mode on windows
+
+<img src="documentation/user_stories_6_enabling_dark_mode.png" alt="A screenshot showing windows settings and how to set it to dark mode">
 </details>
 
 <br>
@@ -595,16 +608,21 @@ The website has been tested on the following devices:
 
 <details>
 <summary>Screenshots</summary>
+
+The hero
+
 <img src="documentation/user_stories_15.1.png" alt="A screenshot showing the hero image">
 
 <br>
+
+How to get to the about us summary
 
 <img src="documentation/user_stories_15.2.png" alt="A screenshot showing the about summary and how to get to it">
 </details>
 
 <br>
 
-16. As the owner I want a page that describes out purpose and mission
+16. As the owner I want a page that describes our purpose and mission
 
 | Feature  | Action | Expected results | Actual results |
 | ------------- | ------------- | ------------- | ------------- |
